@@ -4,14 +4,28 @@ import './App.css';
 
 function App() {
   return (
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Edit <code>src/App.js</code> and save to reload.
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://reactjs.org"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       Learn React
+    //     </a>
+    //   </header>
+    // </div>
+      
     <div id="wrapper">
 
       <aside id="sidebar-wrapper">
         <div className="sidebar-brand">
           <h2>Logo</h2>
-          <h2>
-            <a id="sidebar-close" href="#"><i className="fa fa-window-close"></i></a>
-          </h2>
         </div>
         <ul className="sidebar-nav">
           <li className="active">
@@ -26,12 +40,17 @@ function App() {
         </ul>
       </aside>
     
-      <section id="content-wrapper">
-          <div className="row">
-            <div className="col-lg-12">
-                <a href="#" className="navbar-brand" id="sidebar-toggle"><i className="fa fa-bars"></i></a>
+      <div id="navbar-wrapper">
+        <nav className="navbar navbar-inverse fixed-to">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <a href="#" className="navbar-brand" id="sidebar-toggle"><i className="fa fa-bars"></i></a>
             </div>
-        </div>
+          </div>
+        </nav>
+      </div>
+    
+      <section id="content-wrapper">
           <div className="row">
             <div className="col-lg-12">
               <h2 className="content-title">Test</h2>
