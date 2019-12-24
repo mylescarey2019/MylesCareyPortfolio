@@ -116,7 +116,7 @@ a:focus {
 #content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 30px;
+  padding: 60px 20px 30px 60px;
   top: 100px;
 }
 
@@ -230,9 +230,9 @@ a:focus {
 
   /* burger button */
   #sidebar-toggle {
-    position: relative;
-    top: 10px;
-    left: 10px;
+    position: fixed;
+    top: 15px;
+    left: 20px;
     display: block;
   }
   
@@ -261,6 +261,10 @@ a:focus {
   /* #wrapper.toggled {
     padding-left: 250px;
   } */
+
+  .porfolio-section {
+    padding-top: 50px;
+  }
 
   #content-wrapper {
     position: relative;

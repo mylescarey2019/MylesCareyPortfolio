@@ -1,13 +1,9 @@
 import React from 'react';
-import SideNav from './components/SideNav'
-import Main from './components/Main'
+import Wrapper from './components/Wrapper'
 
 function App() {
   return (
-    <div id="wrapper">
-      <SideNav />
-      <Main />
-    </div>
+    <Wrapper />
   );
 }
 
