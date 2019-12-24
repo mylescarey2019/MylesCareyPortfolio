@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Porfolio2019/static/css/main.64016503.chunk.css",
-    "main.js": "/Porfolio2019/static/js/main.4072347d.chunk.js",
-    "main.js.map": "/Porfolio2019/static/js/main.4072347d.chunk.js.map",
-    "runtime-main.js": "/Porfolio2019/static/js/runtime-main.9db3218d.js",
-    "runtime-main.js.map": "/Porfolio2019/static/js/runtime-main.9db3218d.js.map",
-    "static/js/2.45671363.chunk.js": "/Porfolio2019/static/js/2.45671363.chunk.js",
-    "static/js/2.45671363.chunk.js.map": "/Porfolio2019/static/js/2.45671363.chunk.js.map",
-    "index.html": "/Porfolio2019/index.html",
-    "precache-manifest.113a40f98c7cacfbbe7e3fc670fe9ef4.js": "/Porfolio2019/precache-manifest.113a40f98c7cacfbbe7e3fc670fe9ef4.js",
-    "service-worker.js": "/Porfolio2019/service-worker.js",
-    "static/css/main.64016503.chunk.css.map": "/Porfolio2019/static/css/main.64016503.chunk.css.map",
-    "static/js/2.45671363.chunk.js.LICENSE": "/Porfolio2019/static/js/2.45671363.chunk.js.LICENSE"
+    "main.css": "/MylesCareyPortfolio/static/css/main.64016503.chunk.css",
+    "main.js": "/MylesCareyPortfolio/static/js/main.4072347d.chunk.js",
+    "main.js.map": "/MylesCareyPortfolio/static/js/main.4072347d.chunk.js.map",
+    "runtime-main.js": "/MylesCareyPortfolio/static/js/runtime-main.19777dfe.js",
+    "runtime-main.js.map": "/MylesCareyPortfolio/static/js/runtime-main.19777dfe.js.map",
+    "static/js/2.45671363.chunk.js": "/MylesCareyPortfolio/static/js/2.45671363.chunk.js",
+    "static/js/2.45671363.chunk.js.map": "/MylesCareyPortfolio/static/js/2.45671363.chunk.js.map",
+    "index.html": "/MylesCareyPortfolio/index.html",
+    "precache-manifest.91b6b8878e5b0acadc75ef93b2ce639d.js": "/MylesCareyPortfolio/precache-manifest.91b6b8878e5b0acadc75ef93b2ce639d.js",
+    "service-worker.js": "/MylesCareyPortfolio/service-worker.js",
+    "static/css/main.64016503.chunk.css.map": "/MylesCareyPortfolio/static/css/main.64016503.chunk.css.map",
+    "static/js/2.45671363.chunk.js.LICENSE": "/MylesCareyPortfolio/static/js/2.45671363.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.9db3218d.js",
+    "static/js/runtime-main.19777dfe.js",
     "static/js/2.45671363.chunk.js",
     "static/css/main.64016503.chunk.css",
     "static/js/main.4072347d.chunk.js"
