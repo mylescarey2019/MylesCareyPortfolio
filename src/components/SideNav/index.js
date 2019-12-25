@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+// import ScrollspyNav from "react-scrollspy-nav";
+import Scrollspy from 'react-scrollspy';
 import '../style.css';
 
 class SideNav extends Component {
@@ -13,33 +15,40 @@ class SideNav extends Component {
           </a>
         </h2>
       </div>
-      <ul className="sidebar-nav">
-        <li>
-          <a href="#about" onClick={ () => this.props.onClickNavLink()}>
-            <i className="fa fa-user"></i>About
-          </a>
-        </li>
-        <li>
-          <a href="#skills" onClick={ () => this.props.onClickNavLink()}
-            ><i className="fa fa-chart-line"></i>Skills
-          </a>
-        </li>
-        <li>
-          <a href="#projects" onClick={ () => this.props.onClickNavLink()}>
-            <i className="fa fa-laptop"></i>Projects
-          </a>
-        </li>
-        <li>
-          <a href="#education" onClick={ () => this.props.onClickNavLink()}>
-            <i className="fa fa-graduation-cap"></i>Education
-          </a>
-        </li>
-        <li>
-          <a href="#experience" onClick={ () => this.props.onClickNavLink()}>
-            <i className="fa fa-building"></i>Experience
-          </a>
-        </li>
-      </ul>
+      <nav>
+        <Scrollspy className="sidebar-nav"
+          items={["about", "skills", "projects","education","experience"]}
+          currentClassName="active-nav"
+        >
+          {/* <ul className="sidebar-nav"> */}
+            <li>
+              <a href="#about" onClick={ () => this.props.onClickNavLink()}>
+                <i className="fa fa-user"></i>About
+              </a>
+            </li>
+            <li>
+              <a href="#skills" onClick={ () => this.props.onClickNavLink()}
+                ><i className="fa fa-chart-line"></i>Skills
+              </a>
+            </li>
+            <li>
+              <a href="#projects" onClick={ () => this.props.onClickNavLink()}>
+                <i className="fa fa-laptop"></i>Projects
+              </a>
+            </li>
+            <li>
+              <a href="#education" onClick={ () => this.props.onClickNavLink()}>
+                <i className="fa fa-graduation-cap"></i>Education
+              </a>
+            </li>
+            <li>
+              <a href="#experience" onClick={ () => this.props.onClickNavLink()}>
+                <i className="fa fa-building"></i>Experience
+              </a>
+            </li>
+          {/* </ul> */}
+        </Scrollspy>
+      </nav>
     </aside>
     )
   }

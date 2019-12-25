@@ -1,9 +1,32 @@
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   padding-bottom: 30px;
   position: relative;
   min-height: 100%;
+}
+
+#about {
+  background-color: #f9f2d9
+}
+
+#skills {
+  background-color: #e5f2e5;
+}
+
+#projects {
+  background-color: #e8f7f2;
+}
+
+#education {
+  background-color: #f6e1d7;
+}
+
+#experience {
+  background-color: #f3deec;
 }
 
 a {
@@ -62,6 +85,7 @@ a:focus {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: block;
 }
 .sidebar-nav > li {
   text-indent: 10px;
@@ -80,6 +104,13 @@ a:focus {
   color: #fff;
   background: #F8BE12;
 }
+
+.active-nav {
+  text-decoration: none;
+  color: #fff;
+  background: #F8BE12;
+}
+
 .sidebar-nav > li > a i.fa {
   font-size: 24px;
   width: 60px;
@@ -269,12 +300,23 @@ a:focus {
   #content-wrapper {
     position: relative;
     top: 0;
-  }
+  } 
+
+    /* #wrapper.toggled #content-wrapper {
+    position: fixed;
+    margin-right: 250px;
+  }  */
 
   #wrapper.toggled #content-wrapper {
     position: relative;
     margin-right: 250px;
+  } 
+
+  html {
+    scroll-behavior: auto;
   }
+
+
 
   /* #wrapper.toggled #navbar-wrapper,
   #wrapper.toggled #content-wrapper {
