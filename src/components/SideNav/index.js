@@ -15,7 +15,7 @@ class SideNav extends Component {
       </div>
       <ul className="sidebar-nav">
         <li>
-          <a href="#" onClick={ () => this.props.onClickNavLink()}>
+          <a href="#about" onClick={ () => this.props.onClickNavLink()}>
             <i className="fa fa-user"></i>About
           </a>
         </li>
@@ -30,12 +30,12 @@ class SideNav extends Component {
           </a>
         </li>
         <li>
-          <a href="#projects" onClick={ () => this.props.onClickNavLink()}>
+          <a href="#education" onClick={ () => this.props.onClickNavLink()}>
             <i className="fa fa-graduation-cap"></i>Education
           </a>
         </li>
         <li>
-          <a href="#projects" onClick={ () => this.props.onClickNavLink()}>
+          <a href="#experience" onClick={ () => this.props.onClickNavLink()}>
             <i className="fa fa-building"></i>Experience
           </a>
         </li>
