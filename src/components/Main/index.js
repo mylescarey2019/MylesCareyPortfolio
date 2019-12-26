@@ -9,7 +9,7 @@ class Main extends Component {
         <div className="row">
           <div className="col-lg-12">
             <a href="#" id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
-               onClick={ () => this.props.onClickSideNav()}></i>
+               onClick={ (e) => this.props.onClickSideNav(e)}></i>
             </a>
           </div>
         </div>
