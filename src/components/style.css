@@ -9,6 +9,13 @@ body {
   min-height: 100%;
 }
 
+
+
+#hero {
+  background-color: #a7eea5;
+  height: 800px;
+}
+
 #about {
   background-color: #f9f2d9
 }
@@ -27,6 +34,14 @@ body {
 
 #experience {
   background-color: #f3deec;
+}
+
+#contact {
+  background-color: #eaf2bb;
+}
+
+#resume {
+  background-color: #8597ab;
 }
 
 a {
@@ -64,17 +79,21 @@ a:focus {
   width: 250px;
 }
 
+#home {
+  padding-right: 20px
+}
+
 .sidebar-brand {
   position: absolute;
   top: 0;
   width: 250px;
-  text-align: center;
-  padding: 20px 0;
+  text-align: left;
+  padding: 20px 0 0 20px;
 }
 .sidebar-brand,#sidebar-close h2 {
   margin: 0;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
 }
 
