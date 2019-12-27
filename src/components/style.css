@@ -10,6 +10,16 @@ body {
 }
 
 
+#header {
+  height: 100px;
+  background-color: coral;
+  display: none;
+}
+
+/* .portfolio-section {
+  padding-top: 50px;
+} */
+
 
 #hero {
   background-color: #a7eea5;
@@ -25,7 +35,7 @@ body {
 }
 
 #projects {
-  background-color: #e8f7f2;
+  background-color: #e8a9cd;
 }
 
 #education {
@@ -79,7 +89,7 @@ a:focus {
   width: 250px;
 }
 
-#home {
+#home, #close {
   padding-right: 20px
 }
 
@@ -136,7 +146,7 @@ a:focus {
 }
 
 /* mod */
-#sidebar-toggle {
+#sidebar-toggle, #header {
   display: none;
 }
 
@@ -189,7 +199,7 @@ a:focus {
   }
   
   /* mod */
-  #sidebar-toggle {
+  #sidebar-toggle, #header {
     display: none;
   }
   
@@ -237,7 +247,7 @@ a:focus {
   }
   
   /* mod */
-  #sidebar-toggle {
+  #sidebar-toggle, #header {
     display: none;
   }
   
@@ -278,6 +288,38 @@ a:focus {
     padding-left: 0;
   }
 
+  .head-offset {
+    margin-top: -60px;
+    padding-top: 60px;
+  }
+
+
+
+/* .head-offset::before {
+  content: '';
+  display: block;
+  background-color: darkblue;
+  height:      60px;
+  margin-top: -60px;
+  visibility: hidden;
+} */
+
+  .main-section {
+    position: absolute;
+    top: 60px;
+  }
+
+  #header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    display: block;
+    padding: 20px 20px 20px 60px;
+    text-align: center;
+    z-index: 2;
+  }
   /* burger button */
   #sidebar-toggle {
     position: fixed;
@@ -318,9 +360,9 @@ a:focus {
     padding-left: 250px;
   } */
 
-  .porfolio-section {
+  /* .portfolio-section {
     padding-top: 50px;
-  }
+  } */
 
   #content-wrapper {
     position: relative;

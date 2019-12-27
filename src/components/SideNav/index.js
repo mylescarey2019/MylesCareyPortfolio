@@ -13,17 +13,18 @@ class SideNav extends Component {
             <i id="home" className="fa fa-home"></i>Logo 
           </a>
         </h4>
-        <h2>
+        <h4>
           <a id="sidebar-close" href="#" onClick={ (e) => this.props.onClickSideNav(e)}
-            ><i className="fa fa-window-close"></i>
+            ><i id="close" className="fa fa-window-close"></i>Close
           </a>
-        </h2>
+        </h4>
       </div>
       <nav>
         <Scrollspy className="sidebar-nav"
           items={["about", "skills", "projects","education","experience",
                   "contact","resume"]}
           currentClassName="active-nav"
+          offset={this.props.scrollSpyOffset}
         >
           {/* <ul className="sidebar-nav"> */}
             <li>

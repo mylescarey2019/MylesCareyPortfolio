@@ -5,7 +5,8 @@ import '../style.css';
 
 class Wrapper extends Component {
   state = {
-    toggleSideNavClass: ''
+    toggleSideNavClass: '',
+    scrollSpyOffset: 0
   };
 
   // // toggle the SideNav state
@@ -40,9 +41,11 @@ class Wrapper extends Component {
     if (this.state.toggleSideNavClass)  {
       console.log(`you clicked toggle sideNav and it is open so close it`);
       this.setState( { toggleSideNavClass: '' } );
+      this.setState( { scrollSpyOffset: 0 } );
     } else {
       console.log(`you clicked toggle sideNav and it is closed so open it`);
       this.setState( { toggleSideNavClass: 'toggled' } );
+      this.setState( { scrollSpyOffset: -120 } );
     }
   }
 
@@ -75,8 +78,9 @@ class Wrapper extends Component {
     return (
       <div id="wrapper" className={this.state.toggleSideNavClass}>
         <SideNav onClickSideNav={this.toggleSideNavClick}
-                 onClickNavLink={this.closeSideNavClick}/>
-        <Main onClickSideNav={this.toggleSideNavClick}/>
+                 onClickNavLink={this.closeSideNavClick}
+                 scrollSpyOffset={this.state.scrollSpyOffset}/>
+        <Main onClickMain={this.closeSideNavClick} onClickSideNav={this.toggleSideNavClick}/>
       </div>
     )
   }
