@@ -21,10 +21,21 @@ body {
 } */
 
 
-#hero {
-  background-color: #a7eea5;
-  height: 800px;
-}
+/* #hero {
+  background-color: #a7eea5; */
+  /* height: 700px; */
+  /* height: auto;
+  width: 100%; */
+  /* background-image: url(./Wrapper/workspace2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: center; */
+/* } */
+/* 
+#hero-img {
+  object-fit: contain;
+  object-position: center;
+} */
 
 #about {
   background-color: #f9f2d9
@@ -71,10 +82,10 @@ a:focus {
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
-  left: 250px;
+  left: 180px;
   width: 0;
   height: 100%;
-  margin-left: -250px;
+  margin-left: -180px;
   overflow-y: auto;
   overflow-x: hidden;
   background: #222;
@@ -86,7 +97,7 @@ a:focus {
 }
 
 #wrapper.toggled #sidebar-wrapper {
-  width: 250px;
+  width: 180px;
 }
 
 #home, #close {
@@ -96,7 +107,7 @@ a:focus {
 .sidebar-brand {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 180px;
   text-align: left;
   padding: 20px 0 0 20px;
 }
@@ -110,7 +121,7 @@ a:focus {
 .sidebar-nav {
   position: absolute;
   top: 105px;
-  width: 250px;
+  width: 180px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -157,7 +168,7 @@ a:focus {
 }
 #wrapper.toggled #navbar-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -180px;
 }
 #navbar-wrapper .navbar {
   border-width: 0 0 0 0;
@@ -176,18 +187,19 @@ a:focus {
 #content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 60px 20px 30px 60px;
+  /* padding: 60px 20px 30px 60px; */
+  padding: 0px;
   top: 100px;
 }
 
 #wrapper.toggled #content-wrapper {
   position: absolute;
-  margin-right: -250px;
+  margin-right: -180px;
 }
 
 @media (min-width: 992px) {
   #wrapper {
-    padding-left: 250px;
+    padding-left: 180px;
   }
   
   #wrapper.toggled {
@@ -195,7 +207,7 @@ a:focus {
   }
 
   #sidebar-wrapper {
-    width: 250px;
+    width: 180px;
   }
   
   /* mod */
@@ -253,12 +265,12 @@ a:focus {
   
 #wrapper.toggled #navbar-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -180px;
 }
   
   #wrapper.toggled #content-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -180px;
   }
 
   #navbar-wrapper {
@@ -266,7 +278,7 @@ a:focus {
   }
 
   #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: 180px;
   }
 
   #content-wrapper {
@@ -277,7 +289,7 @@ a:focus {
   #wrapper.toggled #navbar-wrapper,
   #wrapper.toggled #content-wrapper {
     position: relative;
-    margin-right: 250px;
+    margin-right: 180px;
   }
 }
 
@@ -333,22 +345,22 @@ a:focus {
   }  
   
   #wrapper.toggled #sidebar-wrapper {
-    width: 250px;
+    width: 180px;
   }
 
   /* #wrapper.toggled #navbar-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -180px;
   } */
 
   /* #wrapper.toggled #content-wrapper {
     position: absolute;
-    margin-right: -250px;
+    margin-right: -180px;
   } */
 
   #wrapper.toggled #content-wrapper {
     /* position: relative; */
-    margin-right: 250px;
+    margin-right: 180px;
   } 
   
  
@@ -357,7 +369,7 @@ a:focus {
   } */
 
   /* #wrapper.toggled {
-    padding-left: 250px;
+    padding-left: 180px;
   } */
 
   /* .portfolio-section {
@@ -371,7 +383,7 @@ a:focus {
 
   /* #wrapper.toggled #content-wrapper {
     overflow: hidden;
-    margin-right: 250px;
+    margin-right: 180px;
   }  */
 
   /* #wrapper.toggled {
@@ -391,6 +403,6 @@ a:focus {
   /* #wrapper.toggled #navbar-wrapper,
   #wrapper.toggled #content-wrapper {
     position: relative;
-    margin-right: 250px;
+    margin-right: 180px;
   } */
 } 

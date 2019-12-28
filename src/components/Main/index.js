@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import HeroImg2 from './workspace2.jpg';
+import HeroImg from './workspace.jpg';
 import '../style.css';
 
 class Main extends Component {
@@ -16,7 +18,8 @@ class Main extends Component {
         <div className="row main-section portfolio-section" onClick={ () => this.props.onClickMain()}>
           <div className="col-lg-12">
             <div id="hero">
-              <h2 className="head-offset">Hello World</h2>
+              <h2 className="head-offset"></h2>
+              <img id="hero-img" className="img-fluid" src={HeroImg} alt={"hero"}/>
             </div>
             <div id="about">
             <h2 className="content-title head-offset">About Section</h2>
