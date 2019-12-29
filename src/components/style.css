@@ -12,10 +12,18 @@ body {
 
 #header {
   height: 100px;
-  background-color: coral;
+  width: 100%;
+  margin-left: -15px;
+  margin-right: 0px;
+  color: #ffffff;
+  background-color: #383838;
   display: none;
+  box-shadow: 0px 2px 5px 2px #909090;
 }
 
+.main-section {
+  padding-top: -2px;
+}
 /* .portfolio-section {
   padding-top: 50px;
 } */
@@ -189,7 +197,7 @@ a:focus {
   position: absolute;
   /* padding: 60px 20px 30px 60px; */
   padding: 0px;
-  top: 100px;
+  top: 0px;
 }
 
 #wrapper.toggled #content-wrapper {
@@ -300,10 +308,10 @@ a:focus {
     padding-left: 0;
   }
 
-  .head-offset {
+  /* .head-offset {
     margin-top: -60px;
     padding-top: 60px;
-  }
+  } */
 
 
 
