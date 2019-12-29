@@ -308,10 +308,10 @@ a:focus {
     padding-left: 0;
   }
 
-  /* .head-offset {
-    margin-top: -60px;
-    padding-top: 60px;
-  } */
+  .head-offset {
+    margin-top: -50px;
+    padding-top: 50px; 
+  }
 
 
 
@@ -326,7 +326,7 @@ a:focus {
 
   .main-section {
     position: absolute;
-    top: 60px;
+    top: 50px;
   }
 
   #header {
@@ -384,10 +384,10 @@ a:focus {
     padding-top: 50px;
   } */
 
-  #content-wrapper {
+  /* #content-wrapper {
     position: relative;
     top: 0;
-  } 
+  }  */
 
   /* #wrapper.toggled #content-wrapper {
     overflow: hidden;
