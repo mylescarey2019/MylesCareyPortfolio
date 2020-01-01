@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SideNav from './../SideNav'
 import Main from './../Main'
-import '../style.css';
+import './style.css';
 
 class Wrapper extends Component {
   state = {

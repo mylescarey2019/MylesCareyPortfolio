@@ -2,25 +2,28 @@ import React, { Component } from 'react';
 import HeroImg2 from './workspace2.jpg';
 import HeroImg from './workspace.jpg';
 import HeadLine from '../HeadLine';
-import '../style.css';
+import './style.css';
 
 class Main extends Component {
 
   render() {
     return (
       <section id="content-wrapper">
-        <div id="header" className="">This is the Header Row
+        <div id="header">This is the Header Row
           <div className="col-lg-12">
-            <a href="#" id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
+            {/* <a href="#" id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
                onClick={ (e) => this.props.onClickSideNav(e)}></i>
-            </a>
+            </a> */}
+            <button id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
+               onClick={ (e) => this.props.onClickSideNav(e)}></i>
+            </button>
           </div>
         </div>
         <div className="row main-section " onClick={ () => this.props.onClickMain()}>
           <div className="col-lg-12">
             <div id="hero">
-              <h2 className="head-offset"></h2>
-              <img id="hero-img" className="img-fluid" src={HeroImg} alt={"hero"}/>
+              {/* <h2 className="head-offset"></h2> */}
+              <img className="img-fluid" src={HeroImg} alt={"hero"}/>
             </div>
             <div id="about">
             {/* <h2 className="head-offset">About Section</h2> */}

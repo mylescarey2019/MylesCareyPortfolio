@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import ScrollspyNav from "react-scrollspy-nav";
 import Scrollspy from 'react-scrollspy';
-import '../style.css';
+import './style.css';
 
 class SideNav extends Component {
   render() {
@@ -14,9 +14,12 @@ class SideNav extends Component {
           </a>
         </h4>
         <h4>
-          <a id="sidebar-close" href="#" onClick={ (e) => this.props.onClickSideNav(e)}
+          {/* <a id="sidebar-close" href="#" onClick={ (e) => this.props.onClickSideNav(e)}
             ><i id="close" className="fa fa-window-close"></i>Close
-          </a>
+          </a> */}
+          <button id="sidebar-close" onClick={ (e) => this.props.onClickSideNav(e)}
+            ><i id="close" className="fa fa-window-close fa-lg"></i>Close
+          </button>
         </h4>
       </div>
       <nav>
