@@ -25,6 +25,10 @@ p {
   background-color: #e5f2e5;
 }
 
+.skill-img {
+  width: 100px;
+}
+
 #projects {
   background-color: #e8a9cd;
 }
