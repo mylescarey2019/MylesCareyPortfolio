@@ -1,18 +1,18 @@
 /* html {
   scroll-behavior: smooth;
-}
+} */
+
 
 body {
-  padding-bottom: 30px;
-  position: relative;
-  min-height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
+
 
 p {
-  padding: 10px;
-  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
+/*
 #header {
   display: none;
 }

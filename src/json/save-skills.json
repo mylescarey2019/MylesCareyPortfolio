@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "skill": "../../images/mern.png",
+    "skillName": "MERN"
+  },
+  {
+    "id": 2,
+    "skill": "../../images/bootstrap.png",
+    "skillName": "Bootstrap"
+  },
+  {
+    "id": 3,
+    "skill": "../../images/javascript.png",
+    "skillName": "JavaScript"
+  },
+  {
+    "id": 4,
+    "skill": "../../images/react.png",
+    "skillName": "React"
+  }
+]
+
