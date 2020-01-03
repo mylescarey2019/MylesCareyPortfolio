@@ -63,7 +63,7 @@ class Main extends Component {
                     <img className="img-fluid skill-img" src={ReactImg} alt="react"></img> */}
               <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + '/images/git.png'} alt="git"></img>      
               {Skills1.map(skill => (
-                <img className="img-fluid skill-img" src={skill.skill} alt={skill.skillName}></img>
+                <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + skill.skill} alt={skill.skillName}></img>
               ))}
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
