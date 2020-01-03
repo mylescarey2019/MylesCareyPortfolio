@@ -61,6 +61,7 @@ class Main extends Component {
                     <img className="img-fluid skill-img" src={BootstrapImg} alt="bootstrap"></img>
                     <img className="img-fluid skill-img" src={JavascriptImg} alt="javascript"></img>
                     <img className="img-fluid skill-img" src={ReactImg} alt="react"></img> */}
+              <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + '/images/git.png'} alt="git"></img>      
               {Skills1.map(skill => (
                 <img className="img-fluid skill-img" src={skill.skill} alt={skill.skillName}></img>
               ))}
