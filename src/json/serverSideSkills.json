@@ -1,29 +1,34 @@
 
   { 
-    "title": "Server-Side",
+    "title": "Server",
     "skills-list": [
       {
         "id": 1,
-        "skill": "/images/express.png",
-        "skillName": "Express"
-      }, 
-      {
-        "id": 2,
         "skill": "/images/mongo.png",
         "skillName": "MongoDB"
       },
       {
-        "id": 3,
-        "skill": "/images/mysql.png",
-        "skillName": "MySQL"
-      },
+        "id": 2,
+        "skill": "/images/express.png",
+        "skillName": "Express"
+      }, 
       {
-        "id": 4,
+        "id": 3,
         "skill": "/images/nodejs.png",
         "skillName": "Node"
       },
       {
+        "id": 4,
+        "skill": "/images/mysql.png",
+        "skillName": "MySQL"
+      },
+      {
         "id": 5,
+        "skill": "/images/api.png",
+        "skillName": "API"
+      },
+      {
+        "id": 6,
         "skill": "/images/sql-server.png",
         "skillName": "SQL Server"
       }

@@ -1,0 +1,10 @@
+.projects-div {
+  width: 80%;
+  margin: 30px auto;
+
+  padding: 10px;
+  background-color: greenyellow;
+  text-align: center;
+  font-size: 120px;
+  box-shadow: 2px 2px 4px #888888;
+}

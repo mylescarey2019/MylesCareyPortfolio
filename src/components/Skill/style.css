@@ -1,0 +1,15 @@
+.skill-box {
+  width: 13%;
+  margin: 10px;
+  padding: 10px;
+  /* background-color: white; */
+  text-align: center;
+  /* box-shadow: 2px 2px 4px #888888; */
+  /* border: 2px solid black; */
+  display: inline-block;
+  /* float: left; */
+}
+
+.skill-name {
+  margin-top: 10px;
+}
