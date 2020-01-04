@@ -5,15 +5,19 @@ import HeroImg from './workspace.jpg';
 // import BootstrapImg from '../../images/bootstrap.png';
 // import JavascriptImg from '../../images/javascript.png';
 // import ReactImg from '../../images/react.png';
-import Skills1 from '../../json/skills.json'
+import ClientSideSkills from '../../json/clientSideSkills.json'
+import ServerSideSkills from '../../json/serverSideSkills.json'
 import HeadLine from '../HeadLine';
 import PortfolioSection from '../PortfolioSection'
 import Hero from '../Hero'
 import './style.css';
+import Skills from '../Skills';
 
 class Main extends Component {
 
   render() {
+    // console.log(ClientSideSkills['title']);
+    // console.log(ClientSideSkills['skills-list'][0]);
     return (
       <section id="content-wrapper">
         <div id="header">This is the Header Row
@@ -51,6 +55,8 @@ class Main extends Component {
             </PortfolioSection>
             <PortfolioSection id="skills">
               <HeadLine title={'Skills Section'} />
+              <Skills skillGroup={ClientSideSkills}/>
+              <Skills skillGroup={ServerSideSkills}/>
               {/* The next play is to define a Skills component and rende it here */}
               {/* Skills will be passed a prop that is an array of skill objects */}
               {/* The skill object prop will be mapped over to render the component */}
@@ -62,9 +68,9 @@ class Main extends Component {
                     <img className="img-fluid skill-img" src={JavascriptImg} alt="javascript"></img>
                     <img className="img-fluid skill-img" src={ReactImg} alt="react"></img> */}
               <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + '/images/git.png'} alt="git"></img>      
-              {Skills1.map(skill => (
-                <img className="img-fluid skill-img" src={skill.skill} alt={skill.skillName}></img>
-              ))}
+              {/* {ClientSideSkills['skills-list'].map(skill => (
+                <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + skill.skill} alt={skill.skillName}></img>
+              ))} */}
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
