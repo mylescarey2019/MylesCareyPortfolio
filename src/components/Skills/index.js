@@ -15,7 +15,7 @@ const Skills = (props) => (
   <div className="skills-div">
     <p className="skills-title">{props.skillGroup['title']}</p>
     {props.skillGroup['skills-list'].map(skill => (
-            <Skill skill={skill.skill} skillName={skill.skillName} />
+            <Skill key={skill.id} skill={skill.skill} skillName={skill.skillName} />
           ))}
   </div>   
 )

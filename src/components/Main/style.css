@@ -19,11 +19,11 @@ p {
 }
 
 #about {
-  background-color: #f9f2d9;
+  background-color: #f2f2f2;
 }
 
 #skills {
-  background-color: #e5f2e5;
+  background-color: #f2f2f2;
 }
 
 .skill-img {
@@ -37,19 +37,19 @@ p {
 }
 
 #education {
-  background-color: #f6e1d7;
+  background-color: #f2f2f2;
 }
 
 #experience {
-  background-color: #f3deec;
+  background-color: #f2f2f2;
 }
 
 #contact {
-  background-color: #eaf2bb;
+  background-color: #f2f2f2;
 }
 
 #resume {
-  background-color: #8597ab;
+  background-color: #f2f2f2;
 }
 
 /* won't need this if keep button over <a> */
