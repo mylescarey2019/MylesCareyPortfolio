@@ -3,7 +3,7 @@
   margin: 20px auto;
   padding: 10px;
   background-color: white;
-  text-align: center;
+  /* text-align: center; */
   box-shadow: 2px 2px 4px #888888;
 }
 
@@ -11,7 +11,14 @@
   font-size: x-large;
   font-weight: 700;
   padding: .7em;
-  text-align: left;
+  /* text-align: left; */
   border-bottom: 1px solid #888888;
   margin: .7em 2em;
 }
+
+
+/* @media (max-width: 767px) {
+  .skills-title {
+    text-align: center;
+  }
+} */

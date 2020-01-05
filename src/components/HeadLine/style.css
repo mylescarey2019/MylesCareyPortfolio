@@ -1,17 +1,18 @@
 
 .headline {
   padding: 20px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   color: #ffffff;
   background-color: #0c7664;
   margin: 0px;
-  text-align: left;
+  /* text-align: left; */
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .headline {
     height: 60px;
     padding: 12px 20px 8px 20px;
     font-size: 30px;
+    text-align: center;
   }
-}
+} */

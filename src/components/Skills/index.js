@@ -12,8 +12,8 @@ import './style.css';
 //     )
 
 const Skills = (props) => (
-  <div className="skills-div">
-    <p className="skills-title">{props.skillGroup['title']}</p>
+  <div className="skills-div text-center">
+    <p className="skills-title text-center text-sm-center text-md-left">{props.skillGroup['title']}</p>
     {props.skillGroup['skills-list'].map(skill => (
             <Skill key={skill.id} skill={skill.skill} skillName={skill.skillName} />
           ))}

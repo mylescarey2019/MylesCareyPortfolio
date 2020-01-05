@@ -23,7 +23,7 @@ class Main extends Component {
     // console.log(ClientSideSkills['skills-list'][0]);
     return (
       <section id="content-wrapper">
-        <div id="header">This is the Header Row
+        <div id="header" className="fixed-top text-center">This is the Header Row
           <div className="col-lg-12">
             {/* <a href="#" id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
                onClick={ (e) => this.props.onClickSideNav(e)}></i>

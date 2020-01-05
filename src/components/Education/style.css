@@ -1,17 +1,17 @@
 .education-box {
-  width: 40%;
+  width: 42%;
   margin: 30px;
   padding: 10px;
-  display: inline-block;
+  /* display: inline-block; */
   background-color: #ffffff;
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
   box-shadow: 2px 2px 4px #888888;
 }
 
 .logo-img {
   width: 20%;
-  float: left;
+  /* float: left; */
 }
 
 @media (max-width: 767px) {
