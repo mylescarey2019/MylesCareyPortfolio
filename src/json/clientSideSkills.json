@@ -31,11 +31,6 @@
         "id": 6,
         "skill": "/images/bootstrap.png",
         "skillName": "Bootstrap"
-      },
-      {
-        "id": 7,
-        "skill": "/images/handlebars.png",
-        "skillName": "Handlebars"
       }
     ]
   }

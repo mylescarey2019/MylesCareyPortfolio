@@ -2,15 +2,22 @@
   scroll-behavior: smooth;
 } */
 
+@import url('https://rsms.me/inter/inter.css');
+/* html { font-family: 'Inter', sans-serif; } */
 
-body {
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 p {
   font-family: 'Open Sans', sans-serif;
-}
+} 
 
 /*
 #header {

@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 // import HeroImg2 from './workspace2.jpg';
 import HeroImg from './workspace.jpg';
-// import MernImg from '../../images/mern.png';
-// import BootstrapImg from '../../images/bootstrap.png';
-// import JavascriptImg from '../../images/javascript.png';
-// import ReactImg from '../../images/react.png';
+import ExImg from '../../images/ex.png';
+import PortImg from '../../images/portfolio-1650.png';
 import ClientSideSkills from '../../json/clientSideSkills.json'
 import ServerSideSkills from '../../json/serverSideSkills.json'
+import OtherSkills from '../../json/otherSkills.json'
 import HeadLine from '../HeadLine';
 import PortfolioSection from '../PortfolioSection'
 import Hero from '../Hero'
@@ -58,6 +57,7 @@ class Main extends Component {
               <HeadLine title={'Skills Section'} />
               <Skills skillGroup={ClientSideSkills}/>
               <Skills skillGroup={ServerSideSkills}/>
+              <Skills skillGroup={OtherSkills}/>
               {/* The next play is to define a Skills component and rende it here */}
               {/* Skills will be passed a prop that is an array of skill objects */}
               {/* The skill object prop will be mapped over to render the component */}
@@ -68,7 +68,9 @@ class Main extends Component {
                     <img className="img-fluid skill-img" src={BootstrapImg} alt="bootstrap"></img>
                     <img className="img-fluid skill-img" src={JavascriptImg} alt="javascript"></img>
                     <img className="img-fluid skill-img" src={ReactImg} alt="react"></img> */}
-              {/* <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + '/images/git.png'} alt="git"></img>       */}
+              <img className="img-fluid skill-img" src={ExImg} alt="ex"></img>     
+              <img className="img-fluid skill-img" src={PortImg} alt="ex"></img>    
+              <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + '/images/ex.png'} alt="git"></img>      
               {/* {ClientSideSkills['skills-list'].map(skill => (
                 <img className="img-fluid skill-img" src={process.env.PUBLIC_URL + skill.skill} alt={skill.skillName}></img>
               ))} */}
