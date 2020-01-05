@@ -8,6 +8,7 @@ import ServerSideSkills from '../../json/serverSideSkills.json'
 import OtherSkills from '../../json/otherSkills.json'
 import ProjectList from '../../json/projectList.json'
 import EducationList from '../../json/educationList.json'
+import ExperienceList from '../../json/experienceList.json'
 import HeadLine from '../HeadLine';
 import PortfolioSection from '../PortfolioSection'
 import Hero from '../Hero'
@@ -15,6 +16,7 @@ import './style.css';
 import Skills from '../Skills';
 import Project from '../Project';
 import Education from '../Education';
+import Experience from '../Experience';
 
 class Main extends Component {
 
@@ -129,6 +131,19 @@ class Main extends Component {
             </PortfolioSection>
             <PortfolioSection id="experience">
               <HeadLine title={'Experience'} />
+              {ExperienceList.map(experience => (
+                <Experience 
+                  key={experience.id} 
+                  company={experience.company} 
+                  date={experience.date}
+                  role={experience.role}
+                  bullet1={experience.bullet1}
+                  bullet2={experience.bullet2}
+                  bullet3={experience.bullet3}
+                  bullet4={experience.bullet4}
+                />
+              ))}
+              {/* <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
@@ -139,8 +154,7 @@ class Main extends Component {
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
               <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
-              <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
-              <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p>
+              <p>Voluptate magna est in aliqua ullamco velit et dolor sint nulla laborum deserunt nisi. Pariatur esse ex sint elit fugiat sit consectetur laboris labore veniam eu proident. Adipisicing anim do cupidatat aliqua magna. Fugiat velit voluptate magna proident voluptate eu quis.</p> */}
             </PortfolioSection>
             <PortfolioSection id="contact">
               <HeadLine title={'Contacts'} />
