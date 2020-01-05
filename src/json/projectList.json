@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": 1,
+    "title": "Parent Trap",
+    "img": "/images/portfolio-parenttrap.png",
+    "description": "Household ride/errand tracker",
+    "tech": "MERN Stack (MongoDB, Express, React, Node, MVC"
+  },
+  {
+    "id": 2,
+    "title": "1650 Custodial IRA",
+    "img": "/images/portfolio-1650.png",
+    "description": "Youth IRA Information Portal with Modeling Tool",
+    "tech": "CSS, JQuery, Bootstrap, Highcharts, MySQL, Express, Node, MVC"
+  },
+  {
+    "id": 3,
+    "title": "Dorm Roommate Match",
+    "img": "/images/dorm-portfolio.png",
+    "description": "Roommate Match Application",
+    "tech": "CSS, JQuery, Bootstrap, API, MySQL, Express, Node"
+  },
+  {
+    "id": 4,
+    "title": "Diner Ordering",
+    "img": "/images/diner55-portfolio.png",
+    "description": "Kitchen/Server Ordering Application",
+    "tech": "Bootstrap, MySQL, Express, Node, MVC"
+  }
+]
+
+

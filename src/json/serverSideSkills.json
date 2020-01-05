@@ -4,18 +4,18 @@
     "skills-list": [
       {
         "id": 1,
-        "skill": "/images/mongo.png",
-        "skillName": "MongoDB"
+        "skill": "/images/nodejs.png",
+        "skillName": "Node"
       },
       {
         "id": 2,
-        "skill": "/images/express.png",
+        "skill": "/images/ex.png",
         "skillName": "Express"
       }, 
       {
         "id": 3,
-        "skill": "/images/nodejs.png",
-        "skillName": "Node"
+        "skill": "/images/mongo.png",
+        "skillName": "MongoDB"
       },
       {
         "id": 4,
