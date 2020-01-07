@@ -1,6 +1,6 @@
 .project-box {
-  width: 25%;
-  margin: 30px;
+  width: 100%;
+  margin: 10px;
   padding: 10px;
   /* display: inline-block; */
   background-color: #ffffff;
@@ -17,6 +17,6 @@
 
 @media (max-width: 767px) {
   .project-box {
-    width: 50%;
+    width: 100%;
   }
 }
