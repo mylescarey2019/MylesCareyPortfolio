@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "LinkedIn",
+    "icon": "fab fa-linkedin",
+    "url": "https://www.linkedin.com/in/mylescarey2019"
+  },
+  {
+    "id": 2,
+    "name": "Github",
+    "icon": "fab fa-github-square",
+    "url": "https://github.com/mylescarey2019"
+  },
+  {
+    "id": 3,
+    "name": "Email",
+    "icon": "far fa-envelope",
+    "url": "mailto:mylescarey2019@gmail.com?subject=Regarding%20your%20Portfolio"
+  }
+]
+
+
