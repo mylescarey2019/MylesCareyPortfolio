@@ -15,6 +15,7 @@ import HeadLine from '../HeadLine';
 import PortfolioSection from '../PortfolioSection'
 import Hero from '../Hero'
 import './style.css';
+import About from '../About';
 import Skills from '../Skills';
 import Contacts from '../Contacts';
 import Project from '../Project';
@@ -46,7 +47,8 @@ class Main extends Component {
             <Hero heroimg={HeroImg} />
             <PortfolioSection id="about">
               <HeadLine title={'About'} />
-              <img id="auth-image" className="img-fluid" src={HeadImg}  alt="Myles Carey"/>
+              <About />
+              {/* <img id="auth-image" className="img-fluid" src={HeadImg}  alt="Myles Carey"/>
               <p className="text-left">Full Stack Web Developer who loves solving problems through programming and team collaboration.  
               </p>
               <p className="text-left">
@@ -65,7 +67,7 @@ class Main extends Component {
               </p>
               <p className="text-left">
                 In my free time I enjoy camping on the Washington and Oregon coasts with my wife and two teenage daughters.
-              </p>  
+              </p>   */}
             </PortfolioSection>
             <PortfolioSection id="skills">
               <HeadLine title={'Skills'} />

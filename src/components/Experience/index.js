@@ -1,10 +1,11 @@
 // import React, { Component } from 'react';
 import React from 'react';
 import './style.css';
+import '../app.css';
 
 const Experience = (props) => (
   
-      <div className="experience-box d-inline-block">
+      <div className="experience-box box-border d-inline-block">
         <p>{props.company} - {props.date}</p>
         <p>{props.role}</p>
         <ul>

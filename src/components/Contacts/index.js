@@ -2,6 +2,7 @@
 import React from 'react';
 import Contact from '../Contact';
 import './style.css';
+import '../app.css';
 
 // const Skills = (props) => (
 //       <div className="skills-div">
@@ -12,7 +13,7 @@ import './style.css';
 //     )
 
 const Contacts = (props) => (
-  <div className="contacts-div my-5 mx-auto text-center">
+  <div className="contacts-div box-border my-5 mx-auto text-center">
     {/* <p className="skills-title text-center text-sm-center text-md-left">{props.skillGroup['title']}</p> */}
     {props.contactList.map(contact => (
             <Contact key={contact.id} name={contact.name} icon={contact.icon} url={contact.url} />

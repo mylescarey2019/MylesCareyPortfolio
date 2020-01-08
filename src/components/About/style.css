@@ -1,0 +1,10 @@
+
+#auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  /* padding-left: 20px;
+  padding-right: 30px; */
+  margin: 20px;
+  box-shadow: 2px 2px 4px #888888;
+}
