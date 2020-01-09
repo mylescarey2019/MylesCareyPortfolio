@@ -5,7 +5,7 @@ import './style.css';
 import '../app.css';
 
 const About = (props) => (
-      <div>
+      <div className="about-box m-4">
         <img id="auth-image" className="box-border img-fluid" src={HeadImg}  alt="Myles Carey"/>
         <p className="text-left">Full Stack Web Developer who loves solving problems through programming and team collaboration.  
         </p>
