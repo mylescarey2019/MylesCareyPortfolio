@@ -4,7 +4,7 @@
     "id": 1,
     "title": "Parent Trap",
     "img": "/images/portfolio-parenttrap.png",
-    "description": "Household ride/errand tracker",
+    "description": "Household ride / errand tracker",
     "tech": "MERN Stack (MongoDB, Express, React, Node, MVC",
     "extLink": "https://evening-chamber-98293.herokuapp.com/",
     "extLinkIcon": "fas fa-external-link-alt",
