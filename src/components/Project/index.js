@@ -8,8 +8,8 @@ const Project = (props) => (
         <div className="project-box box-border d-inline-block my-5">
           <img className="img-fluid project-img" src={process.env.PUBLIC_URL + props.img} alt={props.title}></img>
           <p>{props.title}</p>
-          <p>{props.description}</p>
-          <p>{props.tech}</p>
+          <p className="project-p2">{props.description}</p>
+          <p className="project-p3">{props.tech}</p>
           <a href={props.extLink} rel="noopener noreferrer" target="_blank">
             <i className={props.extLinkIcon}></i>
           </a>
