@@ -65,6 +65,10 @@ class Main extends Component {
                         img={project.img}
                         description={project.description}
                         tech={project.tech}
+                        extLink={project.extLink}
+                        extLinkIcon={project.extLinkIcon}
+                        repoLink={project.repoLink}
+                        repoLinkIcon={project.repoLinkIcon}
                       />
                     ))}
                 </div>

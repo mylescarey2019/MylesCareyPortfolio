@@ -5,28 +5,44 @@
     "title": "Parent Trap",
     "img": "/images/portfolio-parenttrap.png",
     "description": "Household ride/errand tracker",
-    "tech": "MERN Stack (MongoDB, Express, React, Node, MVC"
+    "tech": "MERN Stack (MongoDB, Express, React, Node, MVC",
+    "extLink": "https://evening-chamber-98293.herokuapp.com/",
+    "extLinkIcon": "fas fa-external-link-alt",
+    "repoLink": "https://github.com/LandGod/Parent-Trap",
+    "repoLinkIcon": "fab fa-github-square"
   },
   {
     "id": 2,
     "title": "1650 Custodial IRA",
     "img": "/images/portfolio-1650.png",
     "description": "Youth IRA Information Portal with Modeling Tool",
-    "tech": "CSS, JQuery, Bootstrap, Highcharts, MySQL, Express, Node, MVC"
+    "tech": "CSS, JQuery, Bootstrap, Highcharts, MySQL, Express, Node, MVC",
+    "extLink": "https://ira1650.herokuapp.com/#",
+    "extLinkIcon": "fas fa-external-link-alt",
+    "repoLink": "https://github.com/mylescarey2019/1650",
+    "repoLinkIcon": "fab fa-github-square"
   },
   {
     "id": 3,
     "title": "Dorm Roommate Match",
     "img": "/images/dorm-portfolio.png",
     "description": "Roommate Match Application",
-    "tech": "CSS, JQuery, Bootstrap, API, MySQL, Express, Node"
+    "tech": "CSS, JQuery, Bootstrap, API, MySQL, Express, Node",
+    "extLink": "https://mighty-sands-82826.herokuapp.com",
+    "extLinkIcon": "fas fa-external-link-alt",
+    "repoLink": "https://github.com/mylescarey2019/DormRoommateFinder",
+    "repoLinkIcon": "fab fa-github-square"
   },
   {
     "id": 4,
     "title": "Diner Ordering",
     "img": "/images/diner55-portfolio.png",
     "description": "Kitchen/Server Ordering Application",
-    "tech": "Bootstrap, MySQL, Express, Node, MVC"
+    "tech": "Bootstrap, MySQL, Express, Node, MVC",
+    "extLink": "https://frozen-dusk-05920.herokuapp.com",
+    "extLinkIcon": "fas fa-external-link-alt",
+    "repoLink": "https://github.com/mylescarey2019/Diner55",
+    "repoLinkIcon": "fab fa-github-square"
   }
 ]
 
