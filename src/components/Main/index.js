@@ -38,7 +38,7 @@ class Main extends Component {
             </button>
           </div>
         </div>
-        <div className="row main-section " onClick={ () => this.props.onClickMain()}>
+        <div className="row main-section" onClick={ () => this.props.onClickMain()}>
           <div className="col-lg-12">
             {/* <div id="hero">
               <img className="img-fluid" src={HeroImg} alt={"hero"}/>
