@@ -1,6 +1,6 @@
 .project-box {
   width: 100%;
-  /* height: 470px; */
+  height: 500px;
   /* margin: 10px; */
   padding: 10px;
   margin: 0px 0px;
@@ -11,9 +11,19 @@
   /* box-shadow: 2px 2px 4px #888888; */
 }
 
-.project-img {
+.image-box {
   width: 100%;
-  height: auto;
+  height: 50%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.project-img {
+  position: relative;
+  left: 100%;
+  margin-left: -200%;
+  /* width: 100%;
+  height: auto; */
   border: 1px solid #dddddd;
 }
 
@@ -36,6 +46,6 @@ div.project-box p {
 
 @media (max-width: 767px) {
   .project-box {
-    width: 100%;
+    width: 90%;
   }
 }

@@ -4,9 +4,11 @@ import './style.css';
 import '../app.css';
 
 const Project = (props) => (
-      <div className="col-md-6 col-xl-4">
+      <div className="col-sm-6 col-xl-4">
         <div className="project-box box-border d-inline-block my-5">
-          <img className="img-fluid project-img" src={process.env.PUBLIC_URL + props.img} alt={props.title}></img>
+          <div className="image-box">
+            <img className="project-img img-fluid" src={process.env.PUBLIC_URL + props.img} alt={props.title}></img>
+          </div>
           <p>{props.title}</p>
           <p className="project-p2">{props.description}</p>
           <p className="project-p3">{props.tech}</p>
