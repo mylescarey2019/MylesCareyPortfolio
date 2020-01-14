@@ -127,7 +127,6 @@ a:focus {
   font-weight: 900;
   /* padding: 14px 0px 30px 21px; */
   padding: 0px 0px 20px 44px;
-  
 }
 
 /* #name-link {
@@ -199,7 +198,7 @@ a:focus {
   top: 105px;
   /* top: 145px; */
   width: 180px;
-  margin: 0;
+  margin: 40px 0 0 0;
   padding: 0;
   list-style: none;
   display: block;
@@ -207,7 +206,8 @@ a:focus {
 
 .sidebar-nav > li {
   text-indent: 10px;
-  line-height: 42px;
+  line-height: 42px; 
+  /* margin-top: 6px; */
 }
 
 .sidebar-nav > li a {
@@ -219,7 +219,7 @@ a:focus {
   font-size: 18px;
 }
 
-.sidebar-nav > li > a:hover,
+.sidebar-nav > li > a:hover:not(.active-nav),
 .sidebar-nav > li.active > a {
   text-decoration: none;
   color: #fff;
@@ -227,6 +227,7 @@ a:focus {
   /* color: #000000; */
   /* background: #0c7664;  */
   background: #757575;
+  border-left: 5px solid #0c7664;
 }
 
 .my-name:hover {
@@ -237,15 +238,14 @@ a:focus {
   /* color: #000000; */
   /* background: #0c7664;  */
   background: #757575;
+  border-left: 5px solid #0c7664;
 }
 
 .active-nav {
   text-decoration: none;
   color: #fff;;
-  /* background: #f8be12; */
-  /* background: #a9d8cc; */
-  /* background: #0c7664;  */
   background: #757575;
+  border-left: 5px solid #0c7664;
 }
 
 li.active-nav a {
@@ -254,7 +254,8 @@ li.active-nav a {
   /* background: #f8be12; */
   /* background: #a9d8cc; */
   /* background: #0c7664;  */
-  background: #757575
+  background: #757575;
+  
 }
 
 .sidebar-nav > li > a i.fa {

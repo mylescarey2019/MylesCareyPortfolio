@@ -14,11 +14,18 @@
 
 #auth-image {
   float: left;
-  width: 200px;
+  /* width: 200px; */
+  width: 40%;
   height: auto;
   /* padding-left: 20px;
   padding-right: 30px; */
-  margin: 20px;
-  border-radius: .5rem;
+  margin: 20px 20px 20px 0px;
+  /* border-radius: .5rem; */
   box-shadow: 2px 2px 4px #888888;
+}
+
+@media (max-width: 767px) {
+  #auth-image {
+    width: 100%;
+  }
 }
