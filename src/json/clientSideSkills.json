@@ -34,6 +34,16 @@
       },
       {
         "id": 7,
+        "skill": "/images/scss.png",
+        "skillName": "SCSS"
+      },
+      {
+        "id": 8,
+        "skill": "/images/highcharts.png",
+        "skillName": "Highcharts.js"
+      },
+      {
+        "id": 9,
         "skill": "/images/handlebars.png",
         "skillName": "Handlebars"
       }
