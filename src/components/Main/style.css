@@ -316,6 +316,10 @@ a:focus {
     top: 60px;
   }
 
+  #wrapper.toggled .main-section:hover {
+    cursor: pointer;
+  }
+
   :target::before {
     content: "";
     display: block;

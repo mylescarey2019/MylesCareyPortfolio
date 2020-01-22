@@ -3,7 +3,7 @@
     "id": 1,
     "school": "University of Washington",
     "city": "Seattle, WA",
-    "img": "/images/uw-wa.png",
+    "img": "/images/uw5.png",
     "description": "Full Stack Web Development - Certificate",
     "year": "2019"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "school": "University of Wisconsin",
     "city": "Madison, WI",
-    "img": "/images/uw-wi.jpg",
+    "img": "/images/uwwi.png",
     "description": "Bachelor of Science in Computer Science",
     "year": "1990"
   }

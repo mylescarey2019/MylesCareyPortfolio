@@ -12,9 +12,10 @@
 
 .logo-img {
   /* width: 20%; */
-  width: 100px;
+  width: 80px;
   /* float: left; */
   /* margin: 50px; */
+  padding-right: 20px;
 }
 
 @media (max-width: 767px) {

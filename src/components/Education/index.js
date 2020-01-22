@@ -5,11 +5,23 @@ import '../app.css';
 
 const Education = (props) => (
       <div className="education-box box-border d-inline-block">
-        <div id="logo" className="float-left">
-          <img className="img-fluid logo-img" src={process.env.PUBLIC_URL + props.img} alt={props.school}></img>
-        </div>
-        <p>{props.school}, {props.city}</p>
-        <p>{props.description} - {props.year}</p>
+        {/* <div className="container-fluid">
+          <div className="row">
+            <div id="logo" className="col-5">
+              <img className="img-fluid logo-img" src={process.env.PUBLIC_URL + props.img} alt={props.school}></img>
+            </div>
+            <div className="col-7">
+              <p>{props.school}, {props.city}</p>
+              <p>{props.description} - {props.year}</p>
+            </div> */}
+
+            <div id="logo" className="float-left">
+              <img className="img-fluid logo-img" src={process.env.PUBLIC_URL + props.img} alt={props.school}></img>
+            </div>
+            <p>{props.school}, {props.city}</p>
+            <p>{props.description} - {props.year}</p>
+          {/* </div>
+        </div> */}
       </div>   
     )
 

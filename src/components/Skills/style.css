@@ -12,15 +12,15 @@
 .skills-title {
   font-size: x-large;
   font-weight: 700;
-  padding: .7em;
+  padding: 16px;
   /* text-align: left; */
   border-bottom: 1px solid #888888;
-  margin: .7em 2em;
+  margin: 10px 10px;
 }
 
 
-/* @media (max-width: 767px) {
-  .skills-title {
-    text-align: center;
+@media (max-width: 767px) {
+  .skill-name {
+    font-size: 12px;
   }
-} */
+}
