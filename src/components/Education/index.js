@@ -14,12 +14,16 @@ const Education = (props) => (
               <p>{props.school}, {props.city}</p>
               <p>{props.description} - {props.year}</p>
             </div> */}
-
-            <div id="logo" className="float-left">
+            {/* <span className="helper float-left"></span> */}
+            <div className="logo float-left">
               <img className="img-fluid logo-img" src={process.env.PUBLIC_URL + props.img} alt={props.school}></img>
             </div>
-            <p>{props.school}, {props.city}</p>
-            <p>{props.description} - {props.year}</p>
+            <div className="school">
+              <p className="education-city">{props.school}, {props.city}</p>
+              {/* <p>{props.description}</p> */}
+              <p>{props.description} - {props.year}</p>
+              {/* <p>{props.year}</p> */}
+            </div>
           {/* </div>
         </div> */}
       </div>   

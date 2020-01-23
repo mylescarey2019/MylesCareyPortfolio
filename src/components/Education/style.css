@@ -10,13 +10,53 @@
   /* box-shadow: 2px 2px 4px #888888; */
 }
 
+
+.logo {
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* .helper {
+  display: inline-block;
+  height: 100%;
+  width: 10px;
+  vertical-align: middle;
+  background-color: red;
+} */
+.school {
+  width: 75%;
+  height: 100%;
+  /* max-height: 100px; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .logo-img {
-  /* width: 20%; */
-  width: 80px;
+  width: 100%;
+  /* width: 200px; */
   /* float: left; */
   /* margin: 50px; */
   padding-right: 20px;
 }
+
+
+/* .education-city {
+  padding-top: 20px;
+} */
+
+/* @media (min-width: 992px) {
+  .education-box {
+    width: 40%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+  .education-box {
+    width: 60%;
+}
+} */
 
 @media (max-width: 767px) {
   .education-box {
