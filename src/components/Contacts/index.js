@@ -16,7 +16,7 @@ const Contacts = (props) => (
   <div className="contacts-div box-border mx-auto text-center">
     {/* <p className="skills-title text-center text-sm-center text-md-left">{props.skillGroup['title']}</p> */}
     {props.contactList.map(contact => (
-            <Contact key={contact.id} name={contact.name} icon={contact.icon} url={contact.url} />
+            <Contact key={contact.id} class={contact.class} name={contact.name} icon={contact.icon} url={contact.url} />
           ))}
   </div>   
 )

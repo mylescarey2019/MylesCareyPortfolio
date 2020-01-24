@@ -16,12 +16,12 @@ const Education = (props) => (
             </div> */}
             {/* <span className="helper float-left"></span> */}
             <div className="logo float-left">
-              <img className="img-fluid logo-img" src={process.env.PUBLIC_URL + props.img} alt={props.school}></img>
+              <img className="img-flui logo-img" src={process.env.PUBLIC_URL + props.img} alt={props.school}></img>
             </div>
             <div className="school">
               <p className="education-city">{props.school}, {props.city}</p>
               {/* <p>{props.description}</p> */}
-              <p>{props.description} - {props.year}</p>
+              <p className="education-type">{props.description} - {props.year}</p>
               {/* <p>{props.year}</p> */}
             </div>
           {/* </div>

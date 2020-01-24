@@ -12,10 +12,11 @@
 
 
 .logo {
-  width: 25%;
-  height: 100%;
+  width: 20%;
+  /* height: auto; */
   display: inline-block;
-  vertical-align: middle;
+  /* background-color: red; */
+  /* vertical-align: middle; */
 }
 
 /* .helper {
@@ -26,40 +27,61 @@
   background-color: red;
 } */
 .school {
-  width: 75%;
-  height: 100%;
+  width: 80%;
+  /* height: 100%; */
   /* max-height: 100px; */
   display: inline-block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  /* background-color: yellow; */
 }
 
 .logo-img {
   width: 100%;
+  /* width: 120px;
+  height: 120px; */
   /* width: 200px; */
   /* float: left; */
   /* margin: 50px; */
-  padding-right: 20px;
+  /* padding-right: 30px; */
+  /* padding-top: 12px; */
 }
 
 
-/* .education-city {
-  padding-top: 20px;
-} */
+.education-city {
+  height: 60px;
+  padding-top: 24px;
+  font-weight: bold;
+  color: #0c7664;
+  font-style: italic;
+}
+
+.education-type{
+  height: 60px;
+}
 
 /* @media (min-width: 992px) {
   .education-box {
     width: 40%;
 }
 }
+*/
 
 @media (min-width: 768px) and (max-width: 991px)  {
   .education-box {
-    width: 60%;
-}
-} */
+    width: 70%;
+  }
+
+  .education-box:nth-of-type(2) {
+    margin-top: 0;
+  }
+} 
 
 @media (max-width: 767px) {
   .education-box {
     width: 80%;
+  }
+
+  .education-box:nth-of-type(2) {
+    margin-top: 0;
   }
 }
