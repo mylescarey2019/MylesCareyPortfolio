@@ -1,6 +1,7 @@
 .box-border {
   /* border-radius: .5rem; */
-  box-shadow: 2px 2px 4px #888888;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.7); 
+  /* box-shadow: 2px 2px 4px rgba(0,0,0,0.7);  */
   background-color: #ffffff;
   margin: 70px 30px;
   padding: 16px;
