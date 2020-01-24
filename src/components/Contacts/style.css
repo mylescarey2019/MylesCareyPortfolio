@@ -18,9 +18,22 @@
   margin: .7em 2em;
 } */
 
+.contact-group {
+  width: 55%;
+  /* text-align: center; */
+  padding-top: 16px;
+}
 
-/* @media (max-width: 767px) {
-  .skills-title {
-    text-align: center;
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-group {
+    width: 70%;
   }
-} */
+}
+ 
+@media (max-width: 767px) {
+
+  .contact-group {
+    width: 100%;
+  }
+}

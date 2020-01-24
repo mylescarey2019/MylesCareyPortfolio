@@ -3,11 +3,13 @@ import React from 'react';
 import './style.css';
 
 const Contact = (props) => (
-        <li className="contact-list">
+        <li className={`contact-list  ${props.class}`}>
           <a className={props.class} href={props.url} rel="noopener noreferrer" target="_blank">
-            <i className={props.icon}></i>
+            <div className="icon-box">
+              <i className={props.icon}></i>
+            </div>
+            <span className="contact-name">{props.name}</span>
           </a>
-          <span className="contact-name">{props.name}</span>
         </li>
     )
 

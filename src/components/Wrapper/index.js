@@ -6,7 +6,8 @@ import './style.css';
 class Wrapper extends Component {
   state = {
     toggleSideNavClass: '',
-    scrollSpyOffset: -150
+    //scrollSpyOffset: -150
+    scrollSpyOffset: -100
   };
 
   // // toggle the SideNav state
