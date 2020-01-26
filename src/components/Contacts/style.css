@@ -1,10 +1,10 @@
 .contacts-div {
-  width: 80%;
+  width: 60%;
   /* margin: 20px auto; */
   /* margin-top: 70px;
   margin-bottom: 70px;
   padding: 30px; */
-  /* background-color: #ffffff */
+  /* background-color: #ddd */
   /* text-align: center; */
   /* box-shadow: 2px 2px 4px #888888; */
 }
@@ -19,7 +19,7 @@
 } */
 
 .contact-group {
-  width: 55%;
+  width: 75%;
   /* text-align: center; */
   padding-top: 16px;
 }
@@ -27,7 +27,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .contact-group {
-    width: 70%;
+    width: 85%;
   }
 }
  

@@ -10,8 +10,8 @@ body {
   padding-bottom: 30px;
   position: relative;
   min-height: 100%;
-  background-color: #e0e0e0;
-  /* background-image: url(./green_dust_scratch.png); */
+  /* background-color: #e0e0e0; */
+  background-image: url(./cork-wallet.png)
 }
 
 p {

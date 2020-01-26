@@ -1,5 +1,5 @@
 .resume-box {
-  width: 80%;
+  width: 60%;
   /* margin: 30px; */
   /* margin-top: 70px;
   margin-bottom: 600px;
@@ -17,16 +17,18 @@
 }
 
 .resume-div {
-  width: 55%;
+  width: 75%;
   padding: 12px;
   margin: 12px auto;
 }
 
 .resume-div:hover {
-  border: 1px solid #0c7664;
+  border: 1px solid #e0e0e0; 
+  /* background-color: #e0e0e0; */
+  background-image: url(../Main/cork-wallet.png);
   padding: 11px;
   font-weight: 500;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.7); 
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.7); 
 }
 
 #resume-link {
@@ -52,7 +54,7 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .resume-div  {
-    width: 70%;
+    width: 85%;
   }
 }
 
