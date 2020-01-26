@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "af6d0c0ebbca70a125c548a0f8f68701",
+    "revision": "cb1db3931f23db95deccceaf7a7ec229",
     "url": "/portfolio2/index.html"
   },
   {
-    "revision": "45bef439fb5a1bc916c5",
-    "url": "/portfolio2/static/css/main.ce2d2a0c.chunk.css"
+    "revision": "6b56c12910ada732894c",
+    "url": "/portfolio2/static/css/main.da90313c.chunk.css"
   },
   {
     "revision": "dbc161e1fd1451d5a4d9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2/static/js/2.b56d99af.chunk.js.LICENSE"
   },
   {
-    "revision": "45bef439fb5a1bc916c5",
-    "url": "/portfolio2/static/js/main.88596d89.chunk.js"
+    "revision": "6b56c12910ada732894c",
+    "url": "/portfolio2/static/js/main.96bd9483.chunk.js"
   },
   {
     "revision": "5178ef21f4b17c1b295b",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b97ee1b59ef9179e01fee4ceca3d3710",
     "url": "/portfolio2/static/media/MylesCarey.b97ee1b5.jpg"
+  },
+  {
+    "revision": "c93975e3e5fc5c6bd4d2e789ff31ae4a",
+    "url": "/portfolio2/static/media/cork-wallet.c93975e3.png"
   },
   {
     "revision": "f619aada20e8cd03181d6e897acabafb",
