@@ -20,6 +20,7 @@
   width: 75%;
   padding: 12px;
   margin: 12px auto;
+  transition: background-color 1s, box-shadow .5s;
 }
 
 .resume-div:hover {
@@ -61,7 +62,7 @@
 @media (max-width: 767px) {
 
   .resume-box {
-    width: 80%;
+    width: 90%;
   }
   
   .resume-div {
@@ -73,7 +74,7 @@
   }
 
   .resume-name {
-    font-size: 12px;
+    font-size: 14px;
   }
   
 }

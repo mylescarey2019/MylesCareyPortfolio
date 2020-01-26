@@ -9,7 +9,7 @@ const Project = (props) => (
           <div className="image-box">
             <img className="project-img img-fluid" src={process.env.PUBLIC_URL + props.img} alt={props.title}></img>
           </div>
-          <p>{props.title}</p>
+          <p className="project-title">{props.title}</p>
           <p className="project-p2">{props.description}</p>
           <p className="project-p3">{props.tech}</p>
           <a href={props.extLink} rel="noopener noreferrer" target="_blank">

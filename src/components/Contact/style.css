@@ -22,6 +22,7 @@ li.contact-list {
   padding: 12px;
   text-align: left;
   margin-bottom: 8px;
+  transition: background-color .5s, box-shadow .5s;
 }
 
 li.contact-list i {
@@ -37,6 +38,7 @@ li.contact-list:hover:not(.isDisabled) {
   padding: 11px;
   font-weight: 500;
   box-shadow: 2px 4px 4px rgba(0,0,0,0.7); 
+  /* box-shadow: inset 2px 2px 4px rgba(0,0,0,0.7);  */
 }
 
 .icon-box {
@@ -65,7 +67,7 @@ li.contact-list:hover:not(.isDisabled) {
   }
 
   .contact-name {
-    font-size: 12px;
+    font-size: 14px;
   }
   
 }

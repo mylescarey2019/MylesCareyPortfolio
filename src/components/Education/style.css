@@ -49,9 +49,10 @@
 
 .education-city {
   height: 60px;
-  padding-top: 24px;
+  padding-top: 8px;
   font-weight: bold;
   color: #0c7664;
+  font-size: 20px;
   font-style: italic;
 }
 

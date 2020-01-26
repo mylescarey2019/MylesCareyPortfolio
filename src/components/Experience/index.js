@@ -6,8 +6,8 @@ import '../app.css';
 const Experience = (props) => (
   
       <div className="experience-box box-border d-inline-block">
-        <p>{props.company} - {props.date}</p>
-        <p>{props.role}</p>
+        <p className="experience-title">{props.company} - {props.date}</p>
+        <p className="experience-role">{props.role}</p>
         <ul>
           <li className="text-left">{props.bullet1}</li>
           <li className="text-left">{props.bullet2}</li>

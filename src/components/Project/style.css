@@ -27,22 +27,31 @@
   border: 1px solid #dddddd;
 }
 
+
+
 div.project-box i {
   font-size: 30px;
   padding-right: 30px;
 }
 
-div.project-box p {
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: #0c7664;
+}
+
+.project-p2 {
+  height: 90px;
   font-size: 16px;
 }
 
 .project-p2 {
-  height: 30px;
+  height: 90px;
+  font-size: 16px;
 }
 
-.project-p2 {
-  height: 40px;
-}
+
 
 @media (max-width: 767px) {
   .project-box {

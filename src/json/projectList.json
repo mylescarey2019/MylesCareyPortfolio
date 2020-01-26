@@ -43,6 +43,28 @@
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/Diner55",
     "repoLinkIcon": "fab fa-github-square"
+  },
+  {
+    "id": 5,
+    "title": "Movie Gopher",
+    "img": "/images/portfolio-movie.png",
+    "description": "Movie Information Search Engine",
+    "tech": "JavaScript, JQuery, API, YouTube-API, Firebase, Local Storage",
+    "extLink": "https://hyeonguw.github.io/First_Project/index.html",
+    "extLinkIcon": "fas fa-external-link-alt",
+    "repoLink": "https://github.com/HyeongUW/First_Project",
+    "repoLinkIcon": "fab fa-github-square"
+  },
+  {
+    "id": 6,
+    "title": "Bamazon",
+    "img": "/images/portfolio-bamazon.png",
+    "description": "Product Managment System",
+    "tech": "Node.js, MySQL, CLI",
+    "extLink": "",
+    "extLinkIcon": "",
+    "repoLink": "https://github.com/mylescarey2019/Product-Management-System",
+    "repoLinkIcon": "fab fa-github-square"
   }
 ]
 

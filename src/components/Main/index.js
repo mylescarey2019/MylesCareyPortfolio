@@ -28,7 +28,12 @@ class Main extends Component {
   render() {
     return (
       <section id="content-wrapper">
-        <div id="header" className="fixed-top text-center">This is the Header Row
+        <div id="header" className="fixed-top text-center">
+          <a id="header-link" href="#hero">
+          <span id="header-title">Myles Carey</span>
+          <span id="header-sub-title">Full Stack Web Developer / Programmer-Analyst</span>
+
+          </a>
           <div className="col-lg-12">
             {/* <a href="#" id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
                onClick={ (e) => this.props.onClickSideNav(e)}></i>
