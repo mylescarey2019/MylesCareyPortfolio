@@ -60,6 +60,10 @@
 
 @media (max-width: 767px) {
 
+  .resume-box {
+    width: 80%;
+  }
+  
   .resume-div {
     width: 100%;
   }
