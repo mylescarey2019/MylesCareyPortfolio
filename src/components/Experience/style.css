@@ -46,8 +46,8 @@
 }
 
 
-/* @media (max-width: 767px) {
-  .experience-box {
-    width: 80%;
+@media (max-width: 767px) {
+  .experience-list li {
+    font-size: 14px;
   }
-} */
+}

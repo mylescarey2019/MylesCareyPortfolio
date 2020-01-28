@@ -28,4 +28,8 @@
   #auth-image {
     width: 100%;
   }
+
+  .about-box p {
+    font-size: 14px;
+  }
 }
