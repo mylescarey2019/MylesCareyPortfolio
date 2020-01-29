@@ -9,7 +9,9 @@
     "extLink": "https://evening-chamber-98293.herokuapp.com/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/LandGod/Parent-Trap",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 2,
@@ -20,7 +22,9 @@
     "extLink": "https://ira1650.herokuapp.com/#",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/1650",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 3,
@@ -31,7 +35,9 @@
     "extLink": "https://mighty-sands-82826.herokuapp.com",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/DormRoommateFinder",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 4,
@@ -42,7 +48,9 @@
     "extLink": "https://frozen-dusk-05920.herokuapp.com",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/Diner55",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 5,
@@ -53,7 +61,9 @@
     "extLink": "https://hyeonguw.github.io/First_Project/index.html",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/HyeongUW/First_Project",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 6,
@@ -61,10 +71,12 @@
     "img": "/images/portfolio-bamazon.png",
     "description": "Product Managment System",
     "tech": "Node, MySQL, Command Line Interface",
-    "extLink": "",
-    "extLinkIcon": "",
+    "extLink": "https://hyeonguw.github.io/First_Project/index.html",
+    "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/Product-Management-System",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 7,
@@ -75,7 +87,9 @@
     "extLink": "https://mylescarey2019.github.io/MemoryPalace/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/MemoryPalace",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 8,
@@ -86,7 +100,9 @@
     "extLink": "https://powerful-earth-53088.herokuapp.com",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/NewsScraper",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 9,
@@ -97,7 +113,9 @@
     "extLink": "https://mylescarey2019.github.io/Word-Guess-Game/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/Word-Guess-Game",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 10,
@@ -108,7 +126,9 @@
     "extLink": "https://mylescarey2019.github.io/political-role-play/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/political-role-play",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 11,
@@ -119,7 +139,9 @@
     "extLink": "https://mylescarey2019.github.io/TriviaGame/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/TriviaGame",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 12,
@@ -130,18 +152,22 @@
     "extLink": "https://mylescarey2019.github.io/GifTastic/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/GifTastic",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 13,
-    "title": "Rock Paper Scissors +",
+    "title": "Rock Paper Scissors Lizard Spock",
     "img": "/images/portfolio_rpslk.jpg",
     "description": "Two player/session game of classic expanded to include Lizard and Spock",
     "tech": "Firebase, Bootstrap, Local Storage, JavaScript, JQuery",
     "extLink": "https://mylescarey2019.github.io/RPS-Multiplayer/",
     "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/RPS-Multiplayer",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 14,
@@ -149,21 +175,25 @@
     "img": "/images/Liri-Node.png",
     "description": "Song, Movie, Concert API Search Engine",
     "tech": "Node, APIs, Command Line Interface",
-    "extLink": "",
-    "extLinkIcon": "",
+    "extLink": "https://mylescarey2019.github.io/RPS-Multiplayer/",
+    "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/liri-node-app",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   },
   {
     "id": 15,
-    "title": "Presidential Hangman",
+    "title": "Presidential Hangman - Node",
     "img": "/images/WordGuessNode.png",
     "description": "US President themed word guess game",
     "tech": "Node, Command Line Interface",
-    "extLink": "",
-    "extLinkIcon": "",
+    "extLink": "https://mylescarey2019.github.io/RPS-Multiplayer/",
+    "extLinkIcon": "fas fa-external-link-alt",
     "repoLink": "https://github.com/mylescarey2019/Word-Guess-Node",
-    "repoLinkIcon": "fab fa-github-square"
+    "repoLinkIcon": "fab fa-github-square",
+    "linkDesc": "Deployed Site",
+    "repoDesc": "GitHub Repo"
   }
 ]
 

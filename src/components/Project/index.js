@@ -12,12 +12,16 @@ const Project = (props) => (
           <p className="project-title">{props.title}</p>
           <p className="project-p2">{props.description}</p>
           <p className="project-p3">{props.tech}</p>
-          <a href={props.extLink} rel="noopener noreferrer" target="_blank">
-            <i className={props.extLinkIcon}></i>
+          <div className="project-links">
+            <a className="project-link" href={props.extLink} rel="noopener noreferrer" target="_blank">
+              <i className={props.extLinkIcon}></i>
+              <span className="project-link-desc">{props.linkDesc}</span>
+            </a>
+            <a  className="project-link" href={props.repoLink} rel="noopener noreferrer" target="_blank">
+              <i className={props.repoLinkIcon}></i>
+              <span className="project-link-desc">{props.repoDesc}</span>
           </a>
-          <a href={props.repoLink} rel="noopener noreferrer" target="_blank">
-            <i className={props.repoLinkIcon}></i>
-          </a>
+          </div>
         </div>   
       </div>
     )

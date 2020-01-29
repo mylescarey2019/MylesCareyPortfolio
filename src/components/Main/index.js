@@ -74,6 +74,8 @@ class Main extends Component {
                         extLinkIcon={project.extLinkIcon}
                         repoLink={project.repoLink}
                         repoLinkIcon={project.repoLinkIcon}
+                        linkDesc={project.linkDesc}
+                        repoDesc={project.repoDesc}
                       />
                     ))}
                 </div>
