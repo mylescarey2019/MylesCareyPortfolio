@@ -28,4 +28,12 @@
   #hero {
     padding: 0px;
   }
+
+  .hero-msg-1 {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    font-size: 10px;
+  }
+
 }
