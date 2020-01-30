@@ -13,14 +13,14 @@ const Project = (props) => (
           <p className="project-p2">{props.description}</p>
           <p className="project-p3">{props.tech}</p>
           <div className="project-links">
-            <a className="project-link" href={props.extLink} rel="noopener noreferrer" target="_blank">
+            <a className={`project-link ${props.noLink}`} href={props.extLink} rel="noopener noreferrer" target="_blank">
               <i className={props.extLinkIcon}></i>
               <span className="project-link-desc">{props.linkDesc}</span>
             </a>
             <a  className="project-link" href={props.repoLink} rel="noopener noreferrer" target="_blank">
               <i className={props.repoLinkIcon}></i>
               <span className="project-link-desc">{props.repoDesc}</span>
-          </a>
+            </a>
           </div>
         </div>   
       </div>

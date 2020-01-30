@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import HeroImg2 from './workspace2.jpg';
-import HeroImg from './workspace.jpg';
+// import HeroImg from './workspace.jpg';
+import HeroImg from './desktop1.png';
 // import ExImg from '../../images/javascript2.png';
 // import PortImg from '../../images/portfolio-1650.png';
 import ClientSideSkills from '../../json/clientSideSkills.json'
@@ -72,6 +73,7 @@ class Main extends Component {
                         tech={project.tech}
                         extLink={project.extLink}
                         extLinkIcon={project.extLinkIcon}
+                        noLink={project.noLinkClass}
                         repoLink={project.repoLink}
                         repoLinkIcon={project.repoLinkIcon}
                         linkDesc={project.linkDesc}

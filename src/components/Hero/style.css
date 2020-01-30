@@ -1,0 +1,23 @@
+#hero {
+  padding: 0px;
+  background-color: #000;
+  
+}
+
+/* #hero img {
+  border-radius: .5rem;
+} */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero {
+    padding: 0px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  #hero {
+    padding: 0px;
+  }
+
+}
