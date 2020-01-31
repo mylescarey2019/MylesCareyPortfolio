@@ -1,3 +1,9 @@
+
+/* .project {
+  text-align: center;
+} */
+
+
 .project-box {
   width: 100%;
   /* height: 600px; */
@@ -33,49 +39,65 @@
 
 
 
-div.project-box i {
-  font-size: 30px;
-  color: #0c7664;
-  padding-right: 8px;
-}
 
 .project-title {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 2rem;
-  height: 70px;
+  height: 30px;
   font-weight: bold;
   font-style: italic;
   color: #0c7664;
-  margin: 26px 4px 0px 4px;
+  margin: 16px 4px 16px 4px;
   padding: 0 0;
   /* border-top: 10px solid #0c7664; */
 }
 
-.project-p2 {
+/* .project-p2 {
   height: 70px;
   font-size: 16px;
+  color: #323232;
   margin-left: 8px;
   margin-right: 8px;
+  text-align: left;
+} */
+
+.project-desc-list {
+  height: 180px;
+  margin-left: 0px;
+}
+
+ul.project-desc-list li {
+  list-style-type: disc;
+  list-style-position: outside;
+  text-align: left;
+  padding: 0px 12px 16px 4px;
+}
+
+/* .project-p2 {
+  height: 70px;
+  font-size: 16px;
+  color: #323232;
   text-align: left;
 }
 
 .project-p3 {
   height: 70px;
   font-size: 16px;
+  color: #666;
   margin-left: 8px;
   margin-right: 8px;
   text-align: left;
-}
+} */
 
 .project-links {
   height: 60px;
-  margin-top: 8px;
+  margin-top: 20px;
   margin-bottom: 8px;
 }
 
 .project-link {
   display: inline-block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   width: 46%;
   height: 54px;
   padding: 12px;
@@ -94,10 +116,17 @@ div.project-box i {
 }
 
 
+div.project-box i {
+  font-size: 30px;
+  color: #0c7664;
+  padding-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 .project-link-desc{
-  /* display: inline-block;
-  vertical-align: middle; */
+  /* display: inline-block; */
+  vertical-align: middle;
   font-size: 12px;
 }
 
