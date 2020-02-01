@@ -10,41 +10,17 @@ class Wrapper extends Component {
     scrollSpyOffset: -100
   };
 
-  // // toggle the SideNav state
-  // toggleSideNav = (e) => {
-  //   e.stopPropagation();
-  //   e.nativeEvent.stopPropagation();
-  //   console.log('CLICKED a TOGGLE NAV');
-  //   if (this.state.toggleSideNavClass)  {
-  //     console.log(`you clicked toggle sideNav and it is open so close it`);
-  //     // const body = document.body;
-  //     // const scrollY = body.style.top;
-  //     // body.style.position = '';
-  //     // body.style.top = '';
-  //     // window.scrollTo(0, parseInt(scrollY || '0') * -1);
-  //     this.setState( { toggleSideNavClass: '' } );
-  //   } else {
-  //     console.log(`you clicked toggle sideNav and it is closed so open it`);
-  //     // const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
-  //     // console.log(`Y: ${scrollY}`)
-  //     // const body = document.body;
-  //     // body.style.top = `-${scrollY}`;
-  //     // body.style.position = 'fixed';
-  //     this.setState( { toggleSideNavClass: 'toggled' } );
-  //   }
-  // };
-
   // Toggle the SideNav open-close  only used on small media query break point
   //toggleSideNavClick = (e) => this.toggleSideNav(e);
   toggleSideNavClick = (e) => {
     e.preventDefault();
-    console.log('CLICKED a TOGGLE NAV');
+    // console.log('CLICKED a TOGGLE NAV');
     if (this.state.toggleSideNavClass)  {
-      console.log(`you clicked toggle sideNav and it is open so close it`);
+      // console.log(`you clicked toggle sideNav and it is open so close it`);
       this.setState( { toggleSideNavClass: '' } );
       this.setState( { scrollSpyOffset: 0 } );
     } else {
-      console.log(`you clicked toggle sideNav and it is closed so open it`);
+      // console.log(`you clicked toggle sideNav and it is closed so open it`);
       this.setState( { toggleSideNavClass: 'toggled' } );
       this.setState( { scrollSpyOffset: -120 } );
     }
