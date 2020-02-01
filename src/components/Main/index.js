@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-// import HeroImg2 from './workspace2.jpg';
-// import HeroImg from './workspace.jpg';
 import HeroImg from './desktop4.jpg';
-// import ExImg from '../../images/javascript2.png';
-// import PortImg from '../../images/portfolio-1650.png';
 import ClientSideSkills from '../../json/clientSideSkills.json'
 import ServerSideSkills from '../../json/serverSideSkills.json'
 import OtherSkills from '../../json/otherSkills.json'
@@ -36,9 +32,6 @@ class Main extends Component {
 
           </a>
           <div className="col-lg-12">
-            {/* <a href="#" id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
-               onClick={ (e) => this.props.onClickSideNav(e)}></i>
-            </a> */}
             <button id="sidebar-toggle" className="navbar-brand"><i className="fa fa-bars"
                onClick={ (e) => this.props.onClickSideNav(e)}></i>
             </button>
@@ -46,12 +39,9 @@ class Main extends Component {
         </div>
         <div className="row main-section" onClick={ () => this.props.onClickMain()}>
           <div className="col-lg-12">
-            {/* <div id="hero">
-              <img className="img-fluid" src={HeroImg} alt={"hero"}/>
-            </div> */}
             <Hero heroimg={HeroImg} />
             <PortfolioSection id="about">
-              <HeadLine title={'About-20'} />
+              <HeadLine title={'About-22'} />
               <About />
             </PortfolioSection>
             <PortfolioSection id="skills">
@@ -118,7 +108,6 @@ class Main extends Component {
             <PortfolioSection id="resume">
               <HeadLine title={'Resume'} />
               <Resume 
-                // name="MylesCareyResume"
                 name={ResumeList[0].name}
                 icon={ResumeList[0].icon}
                 tooltip={ResumeList[0].tooltip}
