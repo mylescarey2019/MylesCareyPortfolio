@@ -65,9 +65,10 @@
 } */
 
 .project-desc-list {
-  height: 200px;
+  height: 180px;
   margin-left: 0px;
   padding-top: 16px;
+  font-size: 16px;
   /* border-top: 1px solid  #0c7664; */
 
 }
