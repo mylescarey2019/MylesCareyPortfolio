@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import HeroImg2 from './workspace2.jpg';
 // import HeroImg from './workspace.jpg';
-import HeroImg from './desktop1.png';
+import HeroImg from './desktop4.jpg';
 // import ExImg from '../../images/javascript2.png';
 // import PortImg from '../../images/portfolio-1650.png';
 import ClientSideSkills from '../../json/clientSideSkills.json'

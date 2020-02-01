@@ -50,6 +50,7 @@
 .education-city {
   height: 60px;
   padding-top: 8px;
+  /* padding: 16px; */
   font-weight: bold;
   color: #0c7664;
   font-size: 20px;
@@ -58,6 +59,7 @@
 
 .education-type{
   height: 60px;
+  /* padding: 16px; */
 }
 
 /* @media (min-width: 992px) {

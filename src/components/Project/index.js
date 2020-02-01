@@ -17,11 +17,11 @@ const Project = (props) => (
             <li className="project-p3">{props.tech}</li>
           </ul>
           <div className="project-links">
-            <a className={`project-link ${props.noLink}`} href={props.extLink} rel="noopener noreferrer" target="_blank">
+            <a className={`project-link1 ${props.noLink}`} href={props.extLink} rel="noopener noreferrer" target="_blank">
               <i className={props.extLinkIcon}></i>
               <span className="project-link-desc">{props.linkDesc}</span>
             </a>
-            <a  className="project-link" href={props.repoLink} rel="noopener noreferrer" target="_blank">
+            <a  className="project-link2" href={props.repoLink} rel="noopener noreferrer" target="_blank">
               <i className={props.repoLinkIcon}></i>
               <span className="project-link-desc">{props.repoDesc}</span>
             </a>
