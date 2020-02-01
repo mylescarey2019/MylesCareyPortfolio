@@ -1,20 +1,8 @@
 
-/* .project {
-  text-align: center;
-} */
-
-
 .project-box {
   width: 100%;
-  /* height: 600px; */
-  /* margin: 10px; */
   padding: 0px;
   margin: 0px 0px;
-  /* display: inline-block; */
-  /* background-color: #ffffff; */
-  /* text-align: center; */
-  /* font-size: 16px; */
-  /* box-shadow: 2px 2px 4px #888888; */
 }
 
 .image-box {
@@ -25,20 +13,7 @@
   border-bottom: 10px solid #0c7664;
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
-  /* margin-bottom: 10px; */
 }
-
-/* .project-img { */
-  /* position: relative;
-  left: 100%;
-  margin-left: -200%; */
-  /* width: 100%;
-  height: auto; */
-  /* border: 1px solid #dddddd; */
-/* } */
-
-
-
 
 .project-title {
   box-sizing: border-box;
@@ -48,29 +23,15 @@
   font-weight: bold;
   font-style: italic;
   color: #0c7664;
-  /* margin: 16px 4px 16px 4px; */
   padding: 16px 0px 16px 0px;
-  /* margin: 0 20px; */
-  /* padding: 0 0; */
   border-bottom: 1px solid #0c7664;
 }
-
-/* .project-p2 {
-  height: 70px;
-  font-size: 16px;
-  color: #323232;
-  margin-left: 8px;
-  margin-right: 8px;
-  text-align: left;
-} */
 
 .project-desc-list {
   height: 180px;
   margin-left: 0px;
   padding-top: 16px;
   font-size: 16px;
-  /* border-top: 1px solid  #0c7664; */
-
 }
 
 ul.project-desc-list li {
@@ -80,48 +41,25 @@ ul.project-desc-list li {
   padding: 0px 12px 16px 4px;
 }
 
-/* .project-p2 {
-  height: 70px;
-  font-size: 16px;
-  color: #323232;
-  text-align: left;
-}
-
-.project-p3 {
-  height: 70px;
-  font-size: 16px;
-  color: #666;
-  margin-left: 8px;
-  margin-right: 8px;
-  text-align: left;
-} */
-
 .project-links {
   height: 60px;
   margin-top: 30px;
-  /* margin-bottom: 8px; */
   border-top: 1px solid #0c7664;
 }
 
 .project-link1,
 .project-link2 {
   display: inline-block;
-  /* vertical-align: middle; */
   width:50%;
-  height: 100%; /*54px; */
+  height: 100%; 
   padding: 12px;
-  /* margin: 2px; */
   transition: background-color .5s, box-shadow .5s;
   cursor: default;
 }
 
 .project-link1:hover:not(.no-link),
 .project-link2:hover:not(.no-link) {
-  /* border: 1px solid #e0e0e0;  */
   background-image: url(./cork-wallet.png);
-  /* padding: 11px; */
-  /* font-weight: 900; */
-  /* box-shadow: 2px 4px 4px rgba(0,0,0,0.7);  */
   box-shadow: 2px 4px 4px 2px  rgba(0,0,0,0.7); 
   cursor: pointer;
 }
@@ -145,7 +83,6 @@ div.project-box i {
 }
 
 .project-link-desc{
-  /* display: inline-block; */
   vertical-align: middle;
   font-size: 12px;
 }
