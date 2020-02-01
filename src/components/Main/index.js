@@ -51,7 +51,7 @@ class Main extends Component {
             </div> */}
             <Hero heroimg={HeroImg} />
             <PortfolioSection id="about">
-              <HeadLine title={'About-05'} />
+              <HeadLine title={'About-06'} />
               <About />
             </PortfolioSection>
             <PortfolioSection id="skills">
