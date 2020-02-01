@@ -2,27 +2,14 @@
 
 .about-box {
   width: 90%;
-  /* margin: 70px 30px;
-  padding: 10px; */
-  /* display: inline-block; */
-  /* background-color: #ffffff; */
-  /* text-align: center; */
   font-size: 16px;
-  /* border-radius: .5rem; */
-  /* box-shadow: 2px 2px 4px #888888; */
 } 
 
 #auth-image {
   float: left;
-  /* width: 200px; */
-  /* width: 40%; */
   width: 30%;
   height: auto;
-  /* padding-left: 20px;
-  padding-right: 30px; */
   margin: 20px 20px 20px 0px;
-  /* border-radius: .5rem; */
-  /* box-shadow: 2px 2px 4px #888888; */
 }
 
 @media (max-width: 767px) {

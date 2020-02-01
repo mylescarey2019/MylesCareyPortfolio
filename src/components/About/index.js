@@ -1,12 +1,10 @@
-// import React, { Component } from 'react';
 import React from 'react';
-import HeadImg from './MylesCarey.jpg';
 import './style.css';
 import '../app.css';
 const About = (props) => (
       
         <div className="about-box box-border d-inline-block">
-          <img id="auth-image" className="img-fluid" src={HeadImg}  alt="Myles Carey"/>
+          <img id="auth-image" className="img-fluid" src="./images/MylesCarey.jpg"  alt="Myles Carey"/>
           <p className="text-left">Full Stack Web Developer who loves solving problems through programming and team collaboration.  
           </p>
           <p className="text-left">
