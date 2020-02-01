@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.a6db2e96.chunk.css",
-    "main.js": "/portfolio2/static/js/main.a9d4fd22.chunk.js",
-    "main.js.map": "/portfolio2/static/js/main.a9d4fd22.chunk.js.map",
+    "main.css": "/portfolio2/static/css/main.e7ebcfe9.chunk.css",
+    "main.js": "/portfolio2/static/js/main.e1b62d19.chunk.js",
+    "main.js.map": "/portfolio2/static/js/main.e1b62d19.chunk.js.map",
     "runtime-main.js": "/portfolio2/static/js/runtime-main.725c372b.js",
     "runtime-main.js.map": "/portfolio2/static/js/runtime-main.725c372b.js.map",
     "static/js/2.1383b386.chunk.js": "/portfolio2/static/js/2.1383b386.chunk.js",
     "static/js/2.1383b386.chunk.js.map": "/portfolio2/static/js/2.1383b386.chunk.js.map",
     "index.html": "/portfolio2/index.html",
-    "precache-manifest.5b8384518923e425b9c4036073e0ffbc.js": "/portfolio2/precache-manifest.5b8384518923e425b9c4036073e0ffbc.js",
+    "precache-manifest.d05b71c680e7866666db2261460864be.js": "/portfolio2/precache-manifest.d05b71c680e7866666db2261460864be.js",
     "service-worker.js": "/portfolio2/service-worker.js",
-    "static/css/main.a6db2e96.chunk.css.map": "/portfolio2/static/css/main.a6db2e96.chunk.css.map",
+    "static/css/main.e7ebcfe9.chunk.css.map": "/portfolio2/static/css/main.e7ebcfe9.chunk.css.map",
     "static/js/2.1383b386.chunk.js.LICENSE": "/portfolio2/static/js/2.1383b386.chunk.js.LICENSE",
     "static/media/style.css": "/portfolio2/static/media/cork-wallet.c93975e3.png",
     "static/media/desktop4.jpg": "/portfolio2/static/media/desktop4.8f850f35.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.725c372b.js",
     "static/js/2.1383b386.chunk.js",
-    "static/css/main.a6db2e96.chunk.css",
-    "static/js/main.a9d4fd22.chunk.js"
+    "static/css/main.e7ebcfe9.chunk.css",
+    "static/js/main.e1b62d19.chunk.js"
   ]
 }
