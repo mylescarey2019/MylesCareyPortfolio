@@ -1,16 +1,7 @@
-// import React, { Component } from 'react';
 import React from 'react';
 import Skill from '../Skill';
 import './style.css';
 import '../app.css';
-
-// const Skills = (props) => (
-//       <div className="skills-div">
-//         {props.skillGroup['skills-list'].map(skill => (
-//                 <img key={skill.id} className="img-fluid skill-img" src={process.env.PUBLIC_URL + skill.skill} alt={skill.skillName}></img>
-//               ))}
-//       </div>   
-//     )
 
 const Skills = (props) => (
   <div className="skills-div box-border mx-auto text-center">

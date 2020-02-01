@@ -1,19 +1,11 @@
 .skills-div {
   width: 90%;
-  /* margin: 20px auto; */
-  /* margin-top: 70px;
-  margin-bottom: 70px;
-  padding: 10px; */
-  /* background-color: white; */
-  /* text-align: center; */
-  /* box-shadow: 2px 2px 4px #888888; */
 }
 
 .skills-title {
   font-size: x-large;
   font-weight: 700;
   padding: 16px;
-  /* text-align: left; */
   border-bottom: 1px solid #888888;
   margin: 10px 10px 20px 10px;
 }
