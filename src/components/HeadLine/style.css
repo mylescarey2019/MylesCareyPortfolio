@@ -4,3 +4,10 @@
   color: #ffffff;
   background-color: #0c7664;
 }
+
+
+@media (max-width: 767px) {
+  #about {
+    font-size: 16px;
+  }
+}

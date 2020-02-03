@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HeroImg from './desktop4.jpg';
+import HeroImg from './desktop13.jpg';
 import ClientSideSkills from '../../json/clientSideSkills.json'
 import ServerSideSkills from '../../json/serverSideSkills.json'
 import OtherSkills from '../../json/otherSkills.json'
@@ -41,7 +41,7 @@ class Main extends Component {
           <div className="col-lg-12">
             <Hero heroimg={HeroImg} />
             <PortfolioSection id="about">
-              <HeadLine title={'About-22'} />
+              <HeadLine id="about" title={'Full Stack Web Developer / Programmer Analyst'} />
               <About />
             </PortfolioSection>
             <PortfolioSection id="skills">

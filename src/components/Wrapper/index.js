@@ -29,7 +29,7 @@ class Wrapper extends Component {
   // Close the SideNav after clicking a Nav Link
   closeSideNavClick = (e) => { 
     //e.preventDefault();
-    console.log('CLICKED a NAV Link');
+    // console.log('CLICKED a NAV Link');
     this.setState( { toggleSideNavClass: '' } ); };
 
   // if window size is expanded past small breakpoint when SideNav bar is open

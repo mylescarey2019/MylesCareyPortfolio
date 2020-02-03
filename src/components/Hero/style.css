@@ -1,29 +1,19 @@
 #hero {
-  padding: 0px;
+  padding: 4px;
   background-color: #000;
   position: relative;
   
-}
-
-.hero-msg-1 {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #hero {
     padding: 0px;
   }
-
 }
 
 @media (max-width: 767px) {
   #hero {
-    padding: 0px;
+    padding: 4px;
   }
 
   .hero-msg-1 {

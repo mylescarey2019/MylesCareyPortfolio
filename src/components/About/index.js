@@ -18,7 +18,7 @@ const About = (props) => (
             Successful prior career as a programmer analyst in a team environment developing new retail, wholesale and master data management systems. 
           </p>
           <p className="text-left">
-            Resourceful and resilient with a strong skill set including Javascript, JQuery, HTML, CSS, React, Git, Node, Express, Mongo, SQL, Unix, 
+            Resourceful and resilient with a strong skill set including Javascript (ES6), jQuery, HTML5, CSS3, React, Git, Node, Express, Mongo, SQL, Unix, 
             relational databases and professional experience executing all aspects of the product life cycle including team collaboration, customer requirements, project design, development, testing, deployment, and support.
           </p>
           <p className="text-left">
