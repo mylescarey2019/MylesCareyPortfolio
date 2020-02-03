@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "886478cb7bf55d3a7c94feed0062f21d",
+    "revision": "ca8b94719b5876e7b69aaa5b6689d723",
     "url": "/portfolio2/index.html"
   },
   {
-    "revision": "2b863a882c3ab540b65c",
-    "url": "/portfolio2/static/css/main.46a5b118.chunk.css"
+    "revision": "e0d5b99c749dc878286b",
+    "url": "/portfolio2/static/css/main.261970db.chunk.css"
   },
   {
     "revision": "4b4f1f52d78387cdaf2e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2/static/js/2.1383b386.chunk.js.LICENSE"
   },
   {
-    "revision": "2b863a882c3ab540b65c",
-    "url": "/portfolio2/static/js/main.2bb04b19.chunk.js"
+    "revision": "e0d5b99c749dc878286b",
+    "url": "/portfolio2/static/js/main.930b0063.chunk.js"
   },
   {
     "revision": "5178ef21f4b17c1b295b",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio2/static/media/cork-wallet.c93975e3.png"
   },
   {
-    "revision": "8f850f356fff8617c6cd970646af8846",
-    "url": "/portfolio2/static/media/desktop4.8f850f35.jpg"
+    "revision": "b542820569fafa072d5e924565609404",
+    "url": "/portfolio2/static/media/desktop13.b5428205.jpg"
   }
 ]);
