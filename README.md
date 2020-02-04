@@ -1,7 +1,5 @@
 # Portfolio
 
-Project Portfolio - MylesCareyPortfolio - in progress - re-write using React.js 
-
 ## Description
 
 ### My Porfolio is a SPA (Single Page Application) written in React.js.
@@ -21,7 +19,7 @@ https://mylescarey2019.github.io/Portfolio/
 ## Use Example:
 
 
-![use-example](./assets/images/use-example.gif)
+![use-example](./use-example.gif)
 
 
 
