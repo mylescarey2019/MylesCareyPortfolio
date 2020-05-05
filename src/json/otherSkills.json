@@ -24,6 +24,11 @@
       },
       {
         "id": 5,
+        "skill": "/images/etl2.jpg",
+        "skillName": "SQL Server Integration Services - ETL"
+      },
+      {
+        "id": 6,
         "skill": "/images/csharp.png",
         "skillName": "C#"
       }
