@@ -1,13 +1,43 @@
 [
   {
     "id": 1,
+    "company": "Pacific Lutheran University",
+    "role": "Web Application Developer",
+    "date": "2020 - Present",
+    "bullet-list": [
+      {
+        "id": 1,
+        "bullet-text": "Support PLU’s use of open source Sakai Learning Management System through code upgrades, customization, debugging, testing, and deployments using Java, Maven, Tomcat, HTML, JavaScript, CSS, MySQL, Git, Jira, and Confluence"
+      },
+      {
+        "id": 2,
+        "bullet-text": "Provide excellent problem solving and customer service working directly with faculty and students on Sakai troubleshooting, training, and enhancement requests"
+      }
+    ]
+  },
+  {
+    "id": 2,
     "company": "UNFI, SuperValu, Unified Grocers, Associated Grocers",
     "role": "Programmer / Business Analyst",
     "date": "1993 - 2019",
-    "bullet1": "Programmer/Analyst experienced in stake-holder/client collaboration, discovery, requirements, design, development, testing, deployment and support",
-    "bullet2": "Developer using SQL, Relational Databases (MS-SQL, Informix, DB2), Unix scripting, ETL(MS-SSIS, MS-Excel), C#",
-    "bullet3": "Multiple roles throughout full product life cycle including project lead, business analyst and developer ",
-    "bullet4": "Navigated multiple merger/acquisitions learning new technologies, new systems and integrating into new work cultures"
+    "bullet-list": [
+      {
+        "id": 1,
+        "bullet-text": "Programmer/Analyst experienced in stake-holder/client collaboration, discovery, requirements, design, development, testing, deployment and support"
+      },
+      {
+        "id": 2,
+        "bullet-text": "Developer using SQL, Relational Databases (MS-SQL, Informix, DB2), Unix scripting, ETL(MS-SSIS, MS-Excel), C#"
+      },
+      {
+        "id": 3,
+        "bullet-text": "Multiple roles throughout full product life cycle including project lead, business analyst and developer "
+      },
+      {
+        "id": 4,
+        "bullet-text": "Navigated multiple merger/acquisitions learning new technologies, new systems and integrating into new work cultures"
+      }
+    ]
   }
 ]
 

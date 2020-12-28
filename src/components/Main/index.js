@@ -94,10 +94,7 @@ class Main extends Component {
                   company={experience.company} 
                   date={experience.date}
                   role={experience.role}
-                  bullet1={experience.bullet1}
-                  bullet2={experience.bullet2}
-                  bullet3={experience.bullet3}
-                  bullet4={experience.bullet4}
+                  bullets={experience["bullet-list"]}
                 />
               ))}
             </PortfolioSection>

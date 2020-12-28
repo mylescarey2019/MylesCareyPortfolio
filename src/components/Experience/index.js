@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import '../app.css';
+import ExperienceBullet from '../ExperienceBullet';
 
 const Experience = (props) => (
   
@@ -8,10 +9,9 @@ const Experience = (props) => (
         <p className="experience-title">{props.company} - {props.date}</p>
         <p className="experience-role">{props.role}</p>
         <ul className="experience-list">
-          <li className="text-left">{props.bullet1}</li>
-          <li className="text-left">{props.bullet2}</li>
-          <li className="text-left">{props.bullet3}</li>
-          <li className="text-left">{props.bullet4}</li>
+        {props.bullets.map(bullet => (
+          <ExperienceBullet key={bullet.id} bulletText={bullet['bullet-text']} />
+        ))}  
         </ul>
       </div>   
     )
