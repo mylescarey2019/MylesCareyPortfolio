@@ -9,19 +9,19 @@
       },
       {
         "id": 2,
-        "skill": "/images/java.png",
-        "skillName": "Java"
-      }, 
-      {
-        "id": 3,
         "skill": "/images/express2.png",
         "skillName": "Express"
       }, 
       {
+        "id": 3,
+        "skill": "/images/java.png",
+        "skillName": "Java"
+      }, 
+      {
         "id": 4,
-        "skill": "/images/mongo.png",
-        "skillName": "MongoDB"
-      },
+        "skill": "/images/maven.png",
+        "skillName": "Maven"
+      }, 
       {
         "id": 5,
         "skill": "/images/mysql.png",
@@ -29,8 +29,18 @@
       },
       {
         "id": 6,
+        "skill": "/images/mariaDb2.png",
+        "skillName": "MariaDB"
+      },
+      {
+        "id": 7,
         "skill": "/images/api.png",
         "skillName": "API"
+      },
+      {
+        "id": 8,
+        "skill": "/images/mongo.png",
+        "skillName": "MongoDB"
       }
     ]
   }

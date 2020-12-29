@@ -1,7 +1,7 @@
 import React from 'react';
+import ExperienceBullet from '../ExperienceBullet';
 import './style.css';
 import '../app.css';
-import ExperienceBullet from '../ExperienceBullet';
 
 const Experience = (props) => (
   
