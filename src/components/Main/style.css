@@ -3,7 +3,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* no longer using smooth setting due to undesirable motion effect when moving through multiple sections */
+  scroll-behavior: auto;
 }
 
 body {

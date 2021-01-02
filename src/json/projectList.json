@@ -20,12 +20,12 @@
     "img": "/images/portfolio-parenttrap.png",
     "description": "Multi-user Household ride / errand tracker for better coordination of busy family schedules",
     "tech": "Team Project using MERN Stack (MongoDB, Express, React, Node),  MVC paradigm, Firebase authentication, Heroku",
-    "extLink": "https://evening-chamber-98293.herokuapp.com/",
-    "extLinkIcon": "fas fa-external-link-alt",
-    "noLinkClass": "",
+    "extLink": "",
+    "extLinkIcon": "",
+    "noLinkClass": "no-link",
     "repoLink": "https://github.com/LandGod/Parent-Trap",
     "repoLinkIcon": "fab fa-github-square",
-    "linkDesc": "Deployed Site",
+    "linkDesc": "",
     "repoDesc": "GitHub Repo"
   },
   {
@@ -90,12 +90,12 @@
     "img": "/images/portfolio-newscraper.png",
     "description": "LA Times headline news article scrapper, article summaries and link saved to MongoDB. Allows for user comments also saved to MongoDB",
     "tech": "Handlebars, APIs, Mongo/Mongoose, Node, Express, MVC paradigm",
-    "extLink": "https://powerful-earth-53088.herokuapp.com",
-    "extLinkIcon": "fas fa-external-link-alt",
-    "noLinkClass": "",
+    "extLink": "",
+    "extLinkIcon": "",
+    "noLinkClass": "no-link",
     "repoLink": "https://github.com/mylescarey2019/NewsScraper",
     "repoLinkIcon": "fab fa-github-square",
-    "linkDesc": "Deployed Site",
+    "linkDesc": "",
     "repoDesc": "GitHub Repo"
   },
   {
