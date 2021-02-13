@@ -8,6 +8,7 @@ const About = (props) => (
           <p className="text-left">Full Stack Web Developer who loves solving problems through programming and team collaboration.  
           </p>
           <p className="text-left">
+            Currently a Web Application Developer at Pacific Lutheran University with a
             Full Stack Web Development Certification from the University of Washington, a strong portfolio and a Bachelor of Science degree
             in Computer Science from the University of Wisconsin.</p>
           <p className="text-left">
@@ -18,7 +19,7 @@ const About = (props) => (
             Successful prior career as a programmer analyst in a team environment developing new retail, wholesale and master data management systems. 
           </p>
           <p className="text-left">
-            Resourceful and resilient with a strong skill set including JavaScript (ES6), HTML5, CSS3, React, TypeScript, jQuery, Git, Node, Java, Express, Mongo, MySQL, SQL Server, Unix, 
+            Resourceful and resilient with a strong skill set including JavaScript (ES6), HTML5, CSS3, React, TypeScript, jQuery, Git, Node, Java, Apache HTTP / Tomcat, Maven, Express, Mongo, MySQL, SQL Server, Linux, Unix, 
             relational databases and professional experience executing all aspects of the product life cycle including team collaboration, customer requirements, project design, development, testing, deployment, and support.
           </p>
           <p className="text-left">
