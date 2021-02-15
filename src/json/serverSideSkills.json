@@ -9,28 +9,48 @@
       },
       {
         "id": 2,
-        "skill": "/images/java.png",
-        "skillName": "Java"
-      }, 
-      {
-        "id": 3,
         "skill": "/images/express2.png",
         "skillName": "Express"
       }, 
       {
+        "id": 3,
+        "skill": "/images/java.png",
+        "skillName": "Java"
+      }, 
+      {
         "id": 4,
-        "skill": "/images/mongo.png",
-        "skillName": "MongoDB"
-      },
+        "skill": "/images/apache.png",
+        "skillName": "Apache HTTP"
+      }, 
       {
         "id": 5,
+        "skill": "/images/tomcat2.png",
+        "skillName": "Apache Tomcat"
+      }, 
+      {
+        "id": 6,
+        "skill": "/images/maven.png",
+        "skillName": "Apache Maven"
+      }, 
+      {
+        "id": 7,
         "skill": "/images/mysql.png",
         "skillName": "MySQL"
       },
       {
-        "id": 6,
+        "id": 8,
+        "skill": "/images/mariaDb2.png",
+        "skillName": "MariaDB"
+      },
+      {
+        "id": 9,
         "skill": "/images/api.png",
         "skillName": "API"
+      },
+      {
+        "id": 10,
+        "skill": "/images/mongo.png",
+        "skillName": "MongoDB"
       }
     ]
   }

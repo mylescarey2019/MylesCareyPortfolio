@@ -1,0 +1,19 @@
+.experience-box li {
+  padding: 8px;
+}
+
+.experience-box li:before {
+  position: absolute;
+  content: '✓';
+  font-size: 24px;
+  font-weight: bold;
+  color: #0c7664;
+  left: -20px; 
+}
+
+
+@media (max-width: 767px) {
+  .experience-list li {
+    font-size: 14px;
+  }
+}
